@@ -1,0 +1,36 @@
+.menu-container {
+  width: 0px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  border-right: solid black 1px;
+  transition: all 0.3s;
+  overflow: auto;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.menu-container.open {
+  width: 600px;
+}
+
+.menu-container ul {
+  margin-top: 70px;
+  display: block;
+  margin-left: 80px;
+}
+
+.menu-container li {
+  font-size: 30px;
+  margin-bottom: 8vh;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-container.open {
+    width: 100%;
+  }
+}

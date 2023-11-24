@@ -1,0 +1,41 @@
+:root {
+  --nav-text-size: 40px;
+  --sidebar-width: 70px;
+}
+
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  border-right: solid black 1px;
+  width: var(--sidebar-width);
+  background-color: white;
+  z-index: 20;
+  cursor: default;
+}
+
+.side-text {
+  animation: scrollslide 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  font-size: var(--nav-text-size);
+  font-family: sequel100;
+  padding-right: calc(var(--nav-text-size) / 7);
+  writing-mode: vertical-rl;
+  white-space: nowrap;
+  /*backwards*/
+  /* transform: translateY(calc(-1 * calc(var(--nav-text-size) * 93.6))); */
+}
+
+@keyframes scrollslide {
+  to {
+    transform: translateY(calc(-1 * calc(var(--nav-text-size) * 46.8)));
+  }
+}
+
+/* 
+backwards
+@keyframes scrollslide {
+  to {
+    transform: translateY(calc(var(--nav-text-size) * 0.02));
+  }
+} */
