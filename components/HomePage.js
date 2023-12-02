@@ -16,8 +16,6 @@ export default function HomePage({ homePage }) {
   const [selectedImg, setSelectedImg] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
 
-  console.log(selectedImg);
-
   const handleClose = () => {
     setModalOpen(false);
     setSelectedImg(null);

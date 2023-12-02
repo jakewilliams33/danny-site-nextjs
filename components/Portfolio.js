@@ -1,6 +1,9 @@
 import "../styles/portfolio.css";
+import { attributes } from "../content/portfolio.md";
 
 export default function Portfolio({ portfolio }) {
+  let { releases } = attributes;
+
   return (
     <div style={{ minHeight: "100vh" }} ref={portfolio}>
       <h1
@@ -25,25 +28,13 @@ export default function Portfolio({ portfolio }) {
             width: "90%",
           }}
         >
-          <div className="grid-product">
-            <img src="images/0.png" />
-          </div>
-          <div className="grid-product">
-            <img src="images/1.png" />
-          </div>
-
-          <div className="grid-product">
-            <img src="images/3.png" />
-          </div>
-          <div className="grid-product">
-            <img src="images/4.png" />
-          </div>
-          <div className="grid-product">
-            <img src="images/5.png" />
-          </div>
-          <div className="grid-product">
-            <img src="images/6.png" />
-          </div>
+          {releases.map((item, index) => {
+            return (
+              <div key={index} className="grid-product">
+                <img src={item.image} />
+              </div>
+            );
+          })}
         </section>
       </div>
     </div>

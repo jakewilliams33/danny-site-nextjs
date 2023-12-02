@@ -5,7 +5,6 @@ import { useState, useRef } from "react";
 import Menu from "../components/Menu.js";
 import Sidebar from "../components/Sidebar";
 import Head from "next/head";
-import { react as About } from "../content/about.md";
 import Portfolio from "../components/Portfolio.js";
 import HomePage from "../components/HomePage.js";
 

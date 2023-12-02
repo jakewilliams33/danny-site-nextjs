@@ -45,7 +45,7 @@
 
 @keyframes scrollslide {
   to {
-    transform: translateY(calc(-1 * calc(var(--side-text-size) * 23.4)));
+    transform: translateY(calc(-1 * calc(var(--side-text-size) * 31)));
   }
 }
 
