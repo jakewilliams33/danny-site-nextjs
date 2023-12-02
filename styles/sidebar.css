@@ -1,6 +1,20 @@
 :root {
-  --nav-text-size: 40px;
+  --side-text-size: 41px;
   --sidebar-width: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --sidebar-width: 50px;
+    --side-text-size: 39px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --sidebar-width: 40px;
+    --side-text-size: 38px;
+  }
 }
 
 .sidebar {
@@ -11,24 +25,27 @@
   background-color: white;
   z-index: 20;
   cursor: default;
+  transition: width 0.8s;
 }
 
 .side-text {
+  transition: font-size 0.8s;
+
   animation: scrollslide 1s linear infinite;
   animation-play-state: paused;
   animation-delay: calc(var(--scroll) * -1s);
-  font-size: var(--nav-text-size);
+  font-size: var(--side-text-size);
   font-family: sequel100;
-  padding-right: calc(var(--nav-text-size) / 7);
+  padding-right: calc(var(--side-text-size) / 7);
   writing-mode: vertical-rl;
   white-space: nowrap;
   /*backwards*/
-  /* transform: translateY(calc(-1 * calc(var(--nav-text-size) * 93.6))); */
+  /* transform: translateY(calc(-1 * calc(var(--side-text-size) * 93.6))); */
 }
 
 @keyframes scrollslide {
   to {
-    transform: translateY(calc(-1 * calc(var(--nav-text-size) * 46.8)));
+    transform: translateY(calc(-1 * calc(var(--side-text-size) * 23.4)));
   }
 }
 
@@ -36,6 +53,6 @@
 backwards
 @keyframes scrollslide {
   to {
-    transform: translateY(calc(var(--nav-text-size) * 0.02));
+    transform: translateY(calc(var(--side-text-size) * 0.02));
   }
 } */

@@ -1,45 +1,46 @@
 "use client";
 
 import "../styles/globals.css";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Menu from "../components/Menu.js";
 import Sidebar from "../components/Sidebar";
 import Head from "next/head";
 import { react as About } from "../content/about.md";
+import Portfolio from "../components/Portfolio.js";
+import HomePage from "../components/HomePage.js";
 
 export default function IndexPage() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const portfolio = useRef(null);
+  const homePage = useRef(null);
+
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <>
       <Head>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
-      <main style={{ height: "700vh", overflowX: "hidden" }}>
+      <main style={{ overflowX: "hidden" }}>
         <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <Menu menuOpen={menuOpen} />
-        <main style={{ marginLeft: "70px" }}>
-          <img
-            alt="danny in the studio"
-            style={{
-              width: "100vw",
-              objectFit: "cover",
-              height: "50vh",
-              filter: "grayscale(100%)",
-              borderBottom: "solid 1px black",
-              objectPosition: "0% 45%",
-            }}
-            src="/images/danny.jpg"
-          />
-          <div
-            style={{
-              fontSize: "30px",
-              paddingLeft: "20px",
-              paddingRight: "20px",
-            }}
-          >
-            <About />
-          </div>
+        <Menu
+          menuOpen={menuOpen}
+          setMenuOpen={setMenuOpen}
+          scrollToSection={scrollToSection}
+          portfolio={portfolio}
+          homePage={homePage}
+        />
+
+        <main className="all-container">
+          <HomePage homePage={homePage} />
+          {/*----------- end of front page -------------  */}
+          <Portfolio portfolio={portfolio} />
         </main>
       </main>
     </>

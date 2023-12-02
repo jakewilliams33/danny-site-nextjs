@@ -25,7 +25,7 @@
   height: 6px;
   width: 45px;
   background-color: black;
-  transition: all 0.2s;
+  transition: translate 0.2s, rotate 0.2s, opacity 0.2s, width 0.8s, height 0.8s;
 }
 
 .hamburger-section.open .middle {
@@ -40,4 +40,29 @@
 .hamburger-section.open .bottom {
   rotate: z -45deg;
   translate: 0px -10px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger-lines {
+    width: 35px;
+  }
+
+  .hamburger-section {
+    height: 55px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hamburger-lines {
+    width: 33px;
+    height: 4px;
+  }
+
+  .hamburger-section {
+    height: 50px;
+  }
+
+  .hamburger-section.open .top {
+    translate: 0px 7px 0px;
+  }
 }

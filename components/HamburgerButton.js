@@ -4,7 +4,6 @@ import "../styles/hamburger.css";
 const HamburgerMenu = ({ menuOpen, setMenuOpen }) => {
   const handleMenuOpen = () => {
     setMenuOpen((prev) => !prev);
-    // document.body.style.overflow = !menuOpen ? "hidden" : "visible";
   };
   return (
     <div
