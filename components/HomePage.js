@@ -44,7 +44,7 @@ export default function HomePage({ homePage }) {
             }}
             onClick={handleClose}
           >
-            <TfiClose color="grey" size={35} />
+            <TfiClose color="grey" size={35} strokeWidth={0.5} />
           </div>
           <div
             style={{
