@@ -8,10 +8,11 @@ import { TfiClose } from "react-icons/tfi";
 
 export default function Portfolio({ portfolio }) {
   let { releases } = attributes;
-
   const [swiperOpen, setSwiperOpen] = useState(false);
   const [initialSlide, setInitialSlide] = useState(null);
-  const [releasesInfo, setReleasesInfo] = useState(releases);
+  const [spotifyURLS, setSpotifyURLS] = useState({});
+
+  const [hideIframe, setHideIframe] = useState(true);
 
   const handleOpen = (selectedRelease) => {
     setInitialSlide(selectedRelease);
@@ -25,26 +26,30 @@ export default function Portfolio({ portfolio }) {
     document.body.style.overflow = "visible";
   };
 
-  const callAPI = async (url) => {
+  const callAPI = async (url, title) => {
     try {
       const res = await fetch(`https://open.spotify.com/oembed?url=${url}`);
       const data = await res.json();
 
-      return data.iframe_url;
+      return { url: data.iframe_url, title: title };
     } catch (err) {
       console.log(err);
     }
   };
 
   useEffect(() => {
-    let arr = [];
+    let obj = {};
     releases.forEach((item) => {
-      callAPI(item.spotify).then((url) => {
-        arr.push({ ...item, spotifyEmbed: url });
+      let title = item.title;
+
+      callAPI(item.spotify, title).then(({ url, title }) => {
+        obj[title] = url;
       });
     });
-    setReleasesInfo(arr);
+    setSpotifyURLS(obj);
   }, []);
+
+  console.log(hideIframe);
 
   return (
     <div
@@ -97,8 +102,10 @@ export default function Portfolio({ portfolio }) {
             virtual
             centeredSlides={true}
             spaceBetween={50}
+            onSlideChange={() => setHideIframe(true)}
           >
-            {releasesInfo.map((item, index) => {
+            {releases.map((item, index) => {
+              let spotifyurl = spotifyURLS[item.title];
               return (
                 <SwiperSlide key={index} virtualIndex={index}>
                   <div
@@ -135,11 +142,20 @@ export default function Portfolio({ portfolio }) {
                         ></img>
 
                         <iframe
+                          style={{ borderRadius: "12px" }}
+                          className={hideIframe ? "spotify hidden" : "spotify"}
                           width="100%"
-                          height="80px"
-                          title={item.title}
+                          height="152"
+                          title="Spotify Embed: My Path to Spotify: Women in Engineering "
                           frameBorder="0"
-                          src={item.spotifyEmbed}
+                          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                          loading="lazy"
+                          src={spotifyurl}
+                          onLoad={() =>
+                            setTimeout(() => {
+                              setHideIframe(false);
+                            }, 200)
+                          }
                         ></iframe>
                       </div>
                     </div>

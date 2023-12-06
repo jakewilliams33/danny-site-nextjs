@@ -16,6 +16,19 @@
   margin: auto;
 }
 
+.spotify {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.hidden {
+  transition: opacity 0.1s;
+}
+
+.spotify.hidden {
+  opacity: 0;
+}
+
 @media screen and (max-width: 1150px) {
   .grid-collection {
     grid-template-columns: 1fr 1fr 1fr 1fr;
