@@ -1,7 +1,6 @@
 import "../styles/globals.css";
 import "../styles/menu.css";
 import "../styles/swiper.css";
-import HomePage from "./HomePage";
 
 const Menu = ({
   menuOpen,
@@ -9,6 +8,7 @@ const Menu = ({
   scrollToSection,
   portfolio,
   homePage,
+  liveSessions,
 }) => {
   const handleClick = (page) => {
     setMenuOpen(false);
@@ -20,7 +20,7 @@ const Menu = ({
       <ul>
         <li onClick={() => handleClick(homePage)}>Home</li>
         <li onClick={() => handleClick(portfolio)}>Portfolio</li>
-        <li>Live Sessions</li>
+        <li onClick={() => handleClick(liveSessions)}>Live Sessions</li>
         <li>Contact</li>
       </ul>
     </nav>

@@ -1,6 +1,6 @@
 import "../styles/portfolio.css";
 import { attributes } from "../content/portfolio.md";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { Navigation, Virtual } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,8 +8,10 @@ import { TfiClose } from "react-icons/tfi";
 
 export default function Portfolio({ portfolio }) {
   let { releases } = attributes;
+
   const [swiperOpen, setSwiperOpen] = useState(false);
   const [initialSlide, setInitialSlide] = useState(null);
+  const [releasesInfo, setReleasesInfo] = useState(releases);
 
   const handleOpen = (selectedRelease) => {
     setInitialSlide(selectedRelease);
@@ -22,6 +24,27 @@ export default function Portfolio({ portfolio }) {
     setInitialSlide(null);
     document.body.style.overflow = "visible";
   };
+
+  const callAPI = async (url) => {
+    try {
+      const res = await fetch(`https://open.spotify.com/oembed?url=${url}`);
+      const data = await res.json();
+
+      return data.iframe_url;
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  useEffect(() => {
+    let arr = [];
+    releases.forEach((item) => {
+      callAPI(item.spotify).then((url) => {
+        arr.push({ ...item, spotifyEmbed: url });
+      });
+    });
+    setReleasesInfo(arr);
+  }, []);
 
   return (
     <div
@@ -75,35 +98,55 @@ export default function Portfolio({ portfolio }) {
             centeredSlides={true}
             spaceBetween={50}
           >
-            {releases.map((item, index) => (
-              <SwiperSlide key={index} virtualIndex={index}>
-                <div
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    display: "flex",
-                    justifyContent: "center",
-                  }}
-                >
+            {releasesInfo.map((item, index) => {
+              return (
+                <SwiperSlide key={index} virtualIndex={index}>
                   <div
                     style={{
-                      backgroundColor: "white",
-                      width: "80vw",
-                      border: "solid black 3px",
+                      width: "100%",
+                      height: "100%",
                       display: "flex",
                       justifyContent: "center",
                     }}
                   >
-                    <div style={{ textAlign: "center" }}>
-                      <h2>{item.artist}</h2>
-                      <h3>{item.title}</h3>
+                    <div
+                      style={{
+                        backgroundColor: "white",
+                        width: "80vw",
+                        border: "solid black 3px",
+                        display: "flex",
+                        justifyContent: "center",
+                      }}
+                    >
+                      <div
+                        style={{
+                          textAlign: "center",
+                          display: "flex",
+                          flexDirection: "column",
+                          justifyContent: "space-between",
+                          height: "80%",
+                        }}
+                      >
+                        <h2>{item.artist}</h2>
+                        <h3>{item.title}</h3>
+                        <img
+                          src={item.image}
+                          style={{ marginBottom: "20px", borderRadius: "12px" }}
+                        ></img>
 
-                      <img style={{ width: "333px" }} src={item.image}></img>
+                        <iframe
+                          width="100%"
+                          height="80px"
+                          title={item.title}
+                          frameBorder="0"
+                          src={item.spotifyEmbed}
+                        ></iframe>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </SwiperSlide>
-            ))}
+                </SwiperSlide>
+              );
+            })}
           </Swiper>
         </>
       )}

@@ -16,9 +16,7 @@
 }
 
 .image-grid {
-  width: 267%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   height: 35vw;
   max-height: 65vh;
   animation: slide infinite linear 60s;
