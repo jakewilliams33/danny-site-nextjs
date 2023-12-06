@@ -49,8 +49,6 @@ export default function Portfolio({ portfolio }) {
     setSpotifyURLS(obj);
   }, []);
 
-  console.log(hideIframe);
-
   return (
     <div
       style={{ minHeight: "100vh", width: "100%", position: "relative" }}
@@ -88,6 +86,7 @@ export default function Portfolio({ portfolio }) {
           <Swiper
             navigation={true}
             initialSlide={initialSlide}
+            loop
             style={{
               height: "80vh",
               width: "100%",
@@ -136,6 +135,16 @@ export default function Portfolio({ portfolio }) {
                       >
                         <h2>{item.artist}</h2>
                         <h3>{item.title}</h3>
+                        <div
+                          style={{
+                            display: "flex",
+                            flexDirection: "row",
+                            textAlign: "center",
+                            justifyContent: "center",
+                          }}
+                        >
+                          <p>{item.roles.toString()}</p>
+                        </div>
                         <img
                           src={item.image}
                           style={{ marginBottom: "20px", borderRadius: "12px" }}

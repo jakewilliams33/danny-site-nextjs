@@ -15,3 +15,31 @@ collections:
         file: "content/about.md"
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
+      - label: Images
+        name: images
+        file: "content/images.md"
+        fields:
+          - label: "Images"
+            name: "images"
+            widget: list
+            fields:
+              - { label: "image", name: "image", widget: "string" }
+      - label: Releases
+        name: releases
+        file: "content/releases.md"
+        fields:
+          - label: "Releases"
+            name: "releases"
+            widget: "list"
+            fields:
+              - { label: "Artist", name: "artist", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Spotify", name: "spotify", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - {
+                  label: "Roles",
+                  name: "roles",
+                  widget: "select",
+                  multiple: true,
+                  options: [" Produced", " Mixed", " Mastered"],
+                }
