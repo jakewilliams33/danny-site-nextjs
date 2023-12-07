@@ -24,9 +24,9 @@ collections:
             widget: list
             fields:
               - { label: "image", name: "image", widget: "string" }
-      - label: Releases
-        name: releases
-        file: "content/releases.md"
+      - label: Portfolio
+        name: portfolio
+        file: "content/portfolio.md"
         fields:
           - label: "Releases"
             name: "releases"
