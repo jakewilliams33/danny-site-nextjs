@@ -12,6 +12,9 @@ export default function ContactForm() {
       </h1>
       <div style={{ display: "flex", flexDirection: "column", width: "300px" }}>
         <form netlify name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact">
+            {" "}
+          </input>
           <p>
             <label>
               Your Name: <input type="text" name="name" />
