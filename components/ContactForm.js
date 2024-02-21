@@ -12,7 +12,7 @@ export default function ContactForm() {
       </h1>
       <form
         method="POST"
-        data-netlify="true"
+        netlify
         onSubmit="submit"
         style={{ display: "flex", flexDirection: "column", width: "300px" }}
       >
