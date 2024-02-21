@@ -1,13 +1,11 @@
 .grid-collection {
   display: grid;
-  grid-gap: 2em;
+  grid-gap: 5px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .grid-product {
   display: grid;
-  margin: auto;
-  width: 100%;
 }
 
 .grid-product img {
@@ -16,13 +14,17 @@
   margin: auto;
 }
 
+.grid-product:hover img {
+  outline: 1pt black solid;
+}
+
 .spotify {
   opacity: 1;
   transition: opacity 0.3s;
 }
 
 .hidden {
-  transition: opacity 0.1s;
+  transition: opacity 0.2s;
 }
 
 .spotify.hidden {
@@ -38,14 +40,12 @@
 @media screen and (max-width: 900px) {
   .grid-collection {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em;
   }
 }
 
 @media screen and (max-width: 768px) {
   .grid-collection {
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
   }
 
   .grid-product img {

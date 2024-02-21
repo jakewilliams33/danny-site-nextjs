@@ -8,16 +8,9 @@ import "swiper/css/pagination";
 export default function GalleryModal({
   images,
   modalOpen,
-  setModalOpen,
-  setSelectedImg,
   selectedImg,
+  handleClose,
 }) {
-  const handleClose = () => {
-    setModalOpen(false);
-    setSelectedImg(null);
-    document.body.style.overflowY = "visible";
-  };
-
   return (
     <>
       {modalOpen && (

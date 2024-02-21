@@ -1,0 +1,44 @@
+.picture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  justify-items: center;
+  grid-gap: 5px;
+  grid-row-gap: 0px;
+}
+
+.grid-box img {
+  width: 100%;
+  cursor: pointer;
+  outline: 0px black solid;
+  transition: opacity 0.2s;
+}
+
+.grid-box:hover .play-icon {
+  opacity: 1;
+}
+
+.grid-box:hover img {
+  outline: 1pt black solid;
+}
+
+.play-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+@media screen and (max-width: 764px) {
+  .picture-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .play-icon {
+    width: 13%;
+  }
+}

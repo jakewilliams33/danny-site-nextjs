@@ -30,7 +30,6 @@
 
 .side-text {
   transition: font-size 0.8s;
-
   animation: scrollslide 1s linear infinite;
   animation-play-state: paused;
   animation-delay: calc(var(--scroll) * -1s);
@@ -40,12 +39,14 @@
   writing-mode: vertical-rl;
   white-space: nowrap;
   /*backwards*/
-  /* transform: translateY(calc(-1 * calc(var(--side-text-size) * 93.6))); */
+  transform: translateY(calc(-1 * calc(var(--side-text-size) * 93.6)));
 }
 
 @keyframes scrollslide {
   to {
-    transform: translateY(calc(-1 * calc(var(--side-text-size) * 31)));
+    /* transform: translateY(calc(-1 * calc(var(--side-text-size) * 31))); */
+    transform: translateY(calc(-1 * calc(var(--side-text-size) * 46.8)));
+    /* add subtract 15.6 to add/remove another rotation */
   }
 }
 

@@ -26,7 +26,7 @@ const Sidebar = ({ menuOpen, setMenuOpen }) => {
           &nbsp; DANNY BLACKBURN &nbsp;&nbsp;&nbsp; DANNY BLACKBURN
           &nbsp;&nbsp;&nbsp; DANNY BLACKBURN &nbsp;&nbsp;&nbsp; DANNY BLACKBURN
           &nbsp;&nbsp;&nbsp; DANNY BLACKBURN &nbsp;&nbsp;&nbsp; DANNY BLACKBURN
-          &nbsp;&nbsp;&nbsp; DANNY BLACKBURN
+          &nbsp;&nbsp;&nbsp; DANNY BLACKBURN &nbsp;&nbsp;&nbsp; DANNY BLACKBURN
         </h1>
       </div>
     </div>

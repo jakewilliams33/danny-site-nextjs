@@ -1,9 +1,23 @@
 import { attributes } from "../content/images.md";
+import { useState } from "react";
+import GalleryModal from "./GalleryModal";
+import { enableBackButton, useBackClose } from "../hooks/useBackClose";
 
 let { images } = attributes;
 
-export default function ImageBanner({ setSelectedImg, setModalOpen }) {
-  const handleClick = (index) => {
+export default function ImageBanner() {
+  const [selectedImg, setSelectedImg] = useState(null);
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const handleClose = () => {
+    enableBackButton();
+    setModalOpen(false);
+    setSelectedImg(null);
+    document.body.style.overflowY = "visible";
+  };
+
+  const handleOpen = (index) => {
+    useBackClose(handleClose);
     setSelectedImg(index);
     setModalOpen(true);
     document.body.style.overflowY = "hidden";
@@ -11,6 +25,14 @@ export default function ImageBanner({ setSelectedImg, setModalOpen }) {
 
   return (
     <>
+      <GalleryModal
+        images={images}
+        modalOpen={modalOpen}
+        setModalOpen={setModalOpen}
+        setSelectedImg={setSelectedImg}
+        selectedImg={selectedImg}
+        handleClose={handleClose}
+      />
       <section
         className="image-grid"
         style={{
@@ -22,8 +44,11 @@ export default function ImageBanner({ setSelectedImg, setModalOpen }) {
           return (
             <div
               key={index}
-              onClick={() => handleClick(index)}
-              style={{ backgroundImage: `url(${item.image})` }}
+              onClick={() => handleOpen(index)}
+              style={{
+                backgroundImage: `url(${item.image})`,
+                borderRight: "1px solid black ",
+              }}
               className="slide"
             ></div>
           );
@@ -32,7 +57,7 @@ export default function ImageBanner({ setSelectedImg, setModalOpen }) {
           return (
             <div
               key={index + 100}
-              onClick={() => handleClick(index)}
+              onClick={() => handleOpen(index)}
               style={{ backgroundImage: `url(${item.image})` }}
               className="slide"
             ></div>

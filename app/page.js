@@ -8,6 +8,7 @@ import Head from "next/head";
 import Portfolio from "../components/Portfolio.js";
 import HomePage from "../components/HomePage.js";
 import LiveSessions from "../components/LiveSessions.js";
+import ContactForm from "../components/ContactForm.js";
 
 export default function IndexPage() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -44,6 +45,7 @@ export default function IndexPage() {
           {/*----------- end of front page -------------  */}
           <Portfolio portfolio={portfolio} />
           <LiveSessions liveSessions={liveSessions} />
+          <ContactForm />
         </main>
       </main>
     </>
