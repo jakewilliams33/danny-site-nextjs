@@ -10,20 +10,28 @@ export default function ContactForm() {
       >
         Contact
       </h1>
-      <form
-        method="POST"
-        netlify
-        onSubmit="submit"
-        style={{ display: "flex", flexDirection: "column", width: "300px" }}
-      >
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name"></input>
-        <label for="inputEmail">Email</label>
-        <input type="email" name="email" id="inputEmail"></input>
-        <label for="message">Message</label>
-        <input type="text" name="message" id="message"></input>
-        <button type="submit">submit</button>
-      </form>
+      <div style={{ display: "flex", flexDirection: "column", width: "300px" }}>
+        <form netlify name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>
+              Your Name: <input type="text" name="name" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Your Email: <input type="email" name="email" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Message: <textarea name="message"></textarea>
+            </label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+      </div>
     </main>
   );
 }
