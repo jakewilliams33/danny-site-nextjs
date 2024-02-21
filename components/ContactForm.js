@@ -22,6 +22,7 @@ export default function ContactForm() {
         <input type="email" name="email" id="inputEmail"></input>
         <label for="message">Message</label>
         <input type="text" name="message" id="message"></input>
+        <button type="submit">submit</button>
       </form>
     </main>
   );
