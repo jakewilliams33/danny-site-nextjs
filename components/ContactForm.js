@@ -5,6 +5,21 @@ import { useState } from "react";
 export default function ContactForm({ contactForm }) {
   const [submitted, setSubmitted] = useState(false);
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => setSubmitted(true))
+      .catch((error) => alert(error));
+  };
+
   return (
     <div
       className="contact-form"
@@ -32,7 +47,7 @@ export default function ContactForm({ contactForm }) {
             <p>Thank you, your message has been sent.</p>
           ) : (
             <form
-              action={() => setSubmitted(true)}
+              onSubmit={handleSubmit}
               netlify="true"
               name="contact"
               method="POST"
