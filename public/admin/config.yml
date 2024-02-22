@@ -43,8 +43,8 @@ collections:
                   multiple: true,
                   options: [" Produced", " Mixed", " Mastered", " Engineered"],
                 }
-              - { label: "Other Credit", name: "credit", widget: "string", description: "eg. "Mastered by *someone else*."}
-              - { label: "Song Info", name: "info", widget: "string", description: "Any extra info about the song."}
+              - { label: "Other Credit", name: "credit", widget: "string", description: "eg. "Mastered by *someone else*." }
+              - { label: "Song Info", name: "info", widget: "string", description: "Any extra info about the song." }
       - label: Live Sessions
         name: livesessions
         file: "content/live-sessions.md"
