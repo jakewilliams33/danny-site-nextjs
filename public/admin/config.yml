@@ -23,7 +23,7 @@ collections:
             name: "images"
             widget: list
             fields:
-              - { label: "image", name: "image", widget: "string" }
+              - { label: "image", name: "image", widget: "image" }
       - label: Portfolio
         name: portfolio
         file: "content/portfolio.md"
