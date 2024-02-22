@@ -9,7 +9,7 @@
 }
 
 .swiper-pagination-bullet-active {
-  background-color: blue !important;
+  background-color: rgb(255, 132, 0) !important;
 
   opacity: 1 !important;
 }
@@ -22,8 +22,8 @@
 }
 
 .swiper-button-prev:active {
-  color: blue !important;
+  color: rgb(255, 132, 0) !important;
 }
 .swiper-button-next:active {
-  color: blue !important;
+  color: rgb(255, 132, 0) !important;
 }

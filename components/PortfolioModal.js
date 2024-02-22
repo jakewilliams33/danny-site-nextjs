@@ -43,11 +43,11 @@ export default function PortfolioModal({
         </div>
       </div>
       <Swiper
+        className="swiper-component"
         navigation={true}
         initialSlide={initialSlide}
         loop
         style={{
-          height: "80vh",
           width: "100%",
           position: "fixed",
           top: "50%",
@@ -68,6 +68,7 @@ export default function PortfolioModal({
             <SwiperSlide key={index} virtualIndex={index}>
               <div
                 style={{
+                  //container for white box
                   width: "100%",
                   height: "100%",
                   display: "flex",
@@ -75,40 +76,67 @@ export default function PortfolioModal({
                 }}
               >
                 <div
+                  className="white-background"
                   style={{
+                    // white box background
                     backgroundColor: "white",
                     width: "80vw",
                     border: "solid black 3px",
-                    display: "flex",
-                    justifyContent: "center",
+                    height: "100%",
+                    borderRadius: "12px",
                   }}
                 >
                   <div
+                    className="swiper-grid"
                     style={{
-                      textAlign: "center",
-                      display: "flex",
-                      flexDirection: "column",
-                      justifyContent: "space-between",
-                      height: "80%",
+                      //main page content
+                      display: "grid",
+                      height: "100%",
                     }}
                   >
-                    <h2>{item.artist}</h2>
-                    <h3>{item.title}</h3>
+                    <img className="image-wide" src={item.image}></img>
+                    <section>
+                      <h1 className="band-name">{item.artist.toUpperCase()}</h1>
+                      <h1 className="song-name">{item.title}</h1>
+                      <div>
+                        <br></br>
+                        <div style={{ display: "flex" }}>
+                          <img className="image-mobile" src={item.image}></img>
+                          <div
+                            style={{
+                              flexDirection: "column",
+                            }}
+                          >
+                            <p className="song-roles">
+                              {item.roles.toString().replaceAll(", ", " / ")}
+                            </p>
+                            <br></br>
+                            <p className="credit">
+                              Mastered by Kane or someone
+                            </p>
+                          </div>
+                          <br></br>
+                        </div>
+
+                        <p className="song-info">
+                          Sed ut perspiciatis unde omnis iste natus error sit
+                          voluptatem accusantium doloremque laudantium, totam
+                          rem aperiam, eaque ipsa quae ab illo inventore
+                          veritatis et quasi architecto beatae vitae dicta sunt
+                          explicabo.
+                        </p>
+                      </div>
+                    </section>
+
                     <div
+                      className="widget-bit"
                       style={{
+                        //spotify bit
                         display: "flex",
-                        flexDirection: "row",
-                        textAlign: "center",
-                        justifyContent: "center",
+                        flexDirection: "column",
+                        justifyContent: "flex-end",
                       }}
                     >
-                      <p>{item.roles.toString()}</p>
-                    </div>
-                    <img
-                      src={item.image}
-                      style={{ marginBottom: "20px", borderRadius: "12px" }}
-                    ></img>
-                    <div>
                       <div
                         className={!hideIframe ? "spotify hidden" : "spotify"}
                       >
@@ -116,27 +144,33 @@ export default function PortfolioModal({
                           styleParams={{
                             position: "absolute",
                             left: "50%",
-                            marginTop: "2%",
+                            marginTop: "1%",
                             transform: "translate(-50%)",
                             zIndex: 10000,
                           }}
                         />
                       </div>
-                      <iframe
-                        style={{ borderRadius: "12px" }}
-                        className={hideIframe ? "spotify hidden" : "spotify"}
-                        width="100%"
-                        title="Spotify Embed: My Path to Spotify: Women in Engineering "
-                        frameBorder="0"
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"
-                        src={spotifyurl}
-                        onLoad={() =>
-                          setTimeout(() => {
-                            setHideIframe(false);
-                          }, 800)
-                        }
-                      ></iframe>
+                      <div className="iframe-container">
+                        <iframe
+                          style={{
+                            borderRadius: "12px",
+                            margin: 0,
+                          }}
+                          className={hideIframe ? "spotify hidden" : "spotify"}
+                          width="100%"
+                          height="100%"
+                          title="Spotify Embed: My Path to Spotify: Women in Engineering "
+                          frameBorder="0"
+                          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                          loading="lazy"
+                          src={spotifyurl}
+                          onLoad={() =>
+                            setTimeout(() => {
+                              setHideIframe(false);
+                            }, 800)
+                          }
+                        ></iframe>
+                      </div>
                     </div>
                   </div>
                 </div>

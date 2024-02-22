@@ -2,9 +2,6 @@
 import { react as About } from "../content/about.md";
 import "../styles/globals.css";
 import ImageBanner from "./ImageBanner";
-import { useState } from "react";
-import { attributes } from "../content/images.md";
-let { images } = attributes;
 
 export default function HomePage({ homePage }) {
   return (

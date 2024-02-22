@@ -2,21 +2,13 @@ import dynamic from "next/dynamic";
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 import { useState } from "react";
 import "../styles/live-sessions.css";
-import playButton from "../public/images/play.png";
 import { TfiClose } from "react-icons/tfi";
+import { attributes } from "../content/live-sessions.md";
+
+let { videourls } = attributes;
 
 export default function LiveSessions({ liveSessions }) {
-  const youtubeurls = [
-    "https://www.youtube.com/watch?v=iIF-d6zt1uw",
-    "https://www.youtube.com/watch?v=P7ob1P4D-Bo",
-    "https://www.youtube.com/watch?v=iYd91BeMaYs",
-    "https://www.youtube.com/watch?v=6zYDJT-qEOw",
-    "https://www.youtube.com/watch?v=O9nJiiZJbpw",
-    "https://www.youtube.com/watch?v=X4AMwFZhhBg",
-    "https://www.youtube.com/watch?v=6G8FDvPsjRs",
-  ];
   const [videoUrl, setVideoUrl] = useState("");
-  console.log(videoUrl);
 
   const handleClick = (item) => {
     setVideoUrl(item);
@@ -66,18 +58,25 @@ export default function LiveSessions({ liveSessions }) {
           </div>
         </div>
       )}
-      <div
-        style={{
-          position: "fixed",
-          left: "50%",
-          top: "50%",
-          transform: "translate(-50%,-50%)",
-          zIndex: 100,
-        }}
-      >
-        {videoUrl && <ReactPlayer controls url={videoUrl} />}
-      </div>
-
+      {videoUrl && (
+        <div
+          style={{
+            position: "fixed",
+            left: "50%",
+            top: "50%",
+            transform: "translate(-50%,-50%)",
+            zIndex: 100,
+            width: "90vw",
+            height: "50vw",
+            display: "flex",
+            justifyContent: "center",
+            maxWidth: "900px",
+            maxHeight: "500px",
+          }}
+        >
+          <ReactPlayer width="100%" height="100%" controls url={videoUrl} />
+        </div>
+      )}
       <div
         style={{
           width: "100%",
@@ -91,7 +90,7 @@ export default function LiveSessions({ liveSessions }) {
             width: "95%",
           }}
         >
-          {youtubeurls.map((item, index) => {
+          {videourls.map((item, index) => {
             return (
               <div
                 key={index}

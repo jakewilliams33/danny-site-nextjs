@@ -16,6 +16,7 @@ export default function IndexPage() {
   const portfolio = useRef(null);
   const homePage = useRef(null);
   const liveSessions = useRef(null);
+  const contactForm = useRef(null);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -38,6 +39,7 @@ export default function IndexPage() {
           portfolio={portfolio}
           homePage={homePage}
           liveSessions={liveSessions}
+          contactForm={contactForm}
         />
 
         <main className="all-container">
@@ -45,7 +47,7 @@ export default function IndexPage() {
           {/*----------- end of front page -------------  */}
           <Portfolio portfolio={portfolio} />
           <LiveSessions liveSessions={liveSessions} />
-          <ContactForm />
+          <ContactForm contactForm={contactForm} />
         </main>
       </main>
     </>

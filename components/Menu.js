@@ -9,6 +9,7 @@ const Menu = ({
   portfolio,
   homePage,
   liveSessions,
+  contactForm,
 }) => {
   const handleClick = (page) => {
     setMenuOpen(false);
@@ -21,7 +22,7 @@ const Menu = ({
         <li onClick={() => handleClick(homePage)}>Home</li>
         <li onClick={() => handleClick(portfolio)}>Portfolio</li>
         <li onClick={() => handleClick(liveSessions)}>Live Sessions</li>
-        <li>Contact</li>
+        <li onClick={() => handleClick(contactForm)}>Contact</li>
       </ul>
     </nav>
   );

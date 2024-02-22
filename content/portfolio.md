@@ -9,7 +9,7 @@ releases:
     title: Love, Barely
     spotify: https://open.spotify.com/track/3KQhpda6V8dfKXBaQdZlNi?si=fb1f665da03d4b8e
     image: images/1.png
-    roles: [" Produced", " Mixed"]
+    roles: [" Produced", " Mixed", " Engineered"]
   - artist: Adult DVD
     title: Bill Murray
     spotify: https://open.spotify.com/track/0Umhmtk4SDzt8wO2nDmOrR?si=4a84f3d946864a88
