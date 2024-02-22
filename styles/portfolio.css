@@ -88,6 +88,7 @@
   font-size: clamp(11px, 1vw, 15px);
   font-style: italic;
   word-break: normal;
+  margin-bottom: 20px;
 }
 
 .song-info {

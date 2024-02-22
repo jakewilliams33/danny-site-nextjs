@@ -111,20 +111,12 @@ export default function PortfolioModal({
                               {item.roles.toString().replaceAll(", ", " / ")}
                             </p>
                             <br></br>
-                            <p className="credit">
-                              Mastered by Kane or someone
-                            </p>
+                            <p className="credit">{item.credit}</p>
                           </div>
                           <br></br>
                         </div>
 
-                        <p className="song-info">
-                          Sed ut perspiciatis unde omnis iste natus error sit
-                          voluptatem accusantium doloremque laudantium, totam
-                          rem aperiam, eaque ipsa quae ab illo inventore
-                          veritatis et quasi architecto beatae vitae dicta sunt
-                          explicabo.
-                        </p>
+                        <p className="song-info">{item.info}</p>
                       </div>
                     </section>
 
