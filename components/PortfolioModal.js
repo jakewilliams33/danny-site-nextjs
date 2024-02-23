@@ -88,7 +88,6 @@ export default function PortfolioModal({
                       <h1 className="band-name">{item.artist.toUpperCase()}</h1>
                       <h1 className="song-name">{item.title}</h1>
                       <div>
-                        <br></br>
                         <div style={{ display: "flex" }}>
                           <img className="image-mobile" src={item.image}></img>
                           <div
@@ -99,10 +98,8 @@ export default function PortfolioModal({
                             <p className="song-roles">
                               {item.roles.toString().replaceAll(", ", " / ")}
                             </p>
-                            <br></br>
                             <p className="credit">{item.credit}</p>
                           </div>
-                          <br></br>
                         </div>
 
                         <p className="song-info">{item.info}</p>

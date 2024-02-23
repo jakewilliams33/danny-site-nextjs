@@ -24,6 +24,7 @@ export default function GalleryModal({
               padding: "3px",
               margin: "8px",
               cursor: "pointer",
+              overflow: "auto",
             }}
             className="close-button"
             onClick={handleClose}

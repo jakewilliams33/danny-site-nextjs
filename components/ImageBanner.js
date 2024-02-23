@@ -20,7 +20,7 @@ export default function ImageBanner() {
     useBackClose(handleClose);
     setSelectedImg(index);
     setModalOpen(true);
-    document.body.style.overflowY = "hidden";
+    document.body.style.overflow = "hidden";
   };
 
   return (

@@ -30,7 +30,16 @@ export default function IndexPage() {
       <Head>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
-      <main style={{ overflowX: "hidden" }}>
+      <h3
+        style={{
+          color: "blue",
+          zIndex: 90000,
+          position: "fixed",
+          top: 0,
+          right: 0,
+        }}
+      ></h3>
+      <main style={{ overflow: "hidden" }}>
         <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Menu
           menuOpen={menuOpen}

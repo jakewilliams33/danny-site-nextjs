@@ -71,28 +71,31 @@
 }
 
 .band-name {
-  font-size: clamp(30px, 3vw, 40px);
+  font-size: clamp(26px, 3vw, 40px);
 }
 
 .song-name {
   font-size: clamp(25px, 2vw, 35px);
   font-style: italic;
+  margin-bottom: 16px;
 }
 
 .song-roles {
   font-size: clamp(15px, 1vw, 20px);
   word-break: normal;
+  margin-bottom: 16px;
 }
 
 .credit {
-  font-size: clamp(11px, 1vw, 15px);
+  font-size: clamp(10px, 1vw, 14px);
   font-style: italic;
   word-break: normal;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .song-info {
-  font-size: clamp(8px, 1vw, 10px);
+  font-size: clamp(10px, 1vw, 14px);
+  font-family: monospace;
 }
 
 .swiper-component {
@@ -115,12 +118,22 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .song-roles {
+    margin-bottom: 12px;
+  }
+
+  .credit {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
   .band-name {
     text-align: center;
   }
 
   .song-name {
     text-align: center;
+    margin-bottom: 10px;
   }
 
   .song-info {
@@ -142,10 +155,12 @@
 
   .image-mobile {
     max-width: 30vw;
+    max-height: 30vw;
+
     margin-bottom: 20px;
     border-radius: 12px;
-    display: block;
     margin-right: 20px;
+    display: block;
   }
 
   .image-wide {

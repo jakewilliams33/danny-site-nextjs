@@ -17,7 +17,7 @@ export default function LiveSessions({ liveSessions }) {
 
   const handleClose = () => {
     setVideoUrl(null);
-    document.body.style.overflow = "scroll";
+    document.body.style.overflow = "visible";
   };
 
   return (
@@ -42,6 +42,7 @@ export default function LiveSessions({ liveSessions }) {
             top: 0,
             left: 0,
             opacity: 0.8,
+            overflow: "auto",
           }}
         >
           <div

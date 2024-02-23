@@ -17,7 +17,10 @@ const Menu = ({
   };
 
   return (
-    <nav className={menuOpen ? "menu-container open" : "menu-container"}>
+    <nav
+      style={{ overflow: "auto" }}
+      className={menuOpen ? "menu-container open" : "menu-container"}
+    >
       <ul>
         <li onClick={() => handleClick(homePage)}>Home</li>
         <li onClick={() => handleClick(portfolio)}>Portfolio</li>

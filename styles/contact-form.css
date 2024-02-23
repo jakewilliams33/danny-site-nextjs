@@ -52,6 +52,7 @@ a {
   outline: none;
   padding: 5px;
   background-color: white;
+  font-size: 13px;
 }
 
 .textarea:focus {
