@@ -20,12 +20,20 @@ export const LoadingSpinner = ({
       >
         <defs>
           <linearGradient id="spinner-secondHalf">
-            <stop offset="0%" stopOpacity="0" stopColor="currentColor" />
-            <stop offset="100%" stopOpacity="0.5" stopColor="currentColor" />
+            <stop offset="0%" stopOpacity="0" stopColor="rgb(255, 132, 0)" />
+            <stop
+              offset="100%"
+              stopOpacity="0.5"
+              stopColor="rgb(255, 132, 0)"
+            />
           </linearGradient>
           <linearGradient id="spinner-firstHalf">
-            <stop offset="0%" stopOpacity="1" stopColor="currentColor" />
-            <stop offset="100%" stopOpacity="0.5" stopColor="currentColor" />
+            <stop offset="0%" stopOpacity="1" stopColor="rgb(255, 132, 0)" />
+            <stop
+              offset="100%"
+              stopOpacity="0.5"
+              stopColor="rgb(255, 132, 0)"
+            />
           </linearGradient>
         </defs>
 
@@ -40,20 +48,11 @@ export const LoadingSpinner = ({
           />
 
           <path
-            stroke="currentColor"
+            stroke="rgb(255, 132, 0)"
             strokeLinecap="round"
             d="M 4 100 A 96 96 0 0 1 4 98"
           />
         </g>
-
-        {/* <animateTransform
-          from="0 0 0"
-          to="360 0 0"
-          attributeName="transform"
-          type="rotate"
-          repeatCount="indefinite"
-          dur="1300ms"
-        /> */}
       </svg>
     </div>
   );
