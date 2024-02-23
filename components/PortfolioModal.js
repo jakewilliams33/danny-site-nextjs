@@ -20,26 +20,15 @@ export default function PortfolioModal({
           backgroundColor: "black",
           width: "100vw",
           height: "100vh",
-          zIndex: 29,
+          zIndex: 20,
           position: "fixed",
           top: 0,
           left: 0,
           opacity: 0.8,
         }}
       >
-        <div
-          style={{
-            position: "absolute",
-            top: 0,
-            right: 0,
-            zIndex: 270,
-            padding: "3px",
-            margin: "8px",
-            cursor: "pointer",
-          }}
-          onClick={handleClose}
-        >
-          <TfiClose strokeWidth={0.5} color="grey" size={35} />
+        <div onClick={handleClose} className="close-button">
+          <TfiClose strokeWidth={0.5} size={35} />
         </div>
       </div>
       <Swiper

@@ -15,6 +15,21 @@
   margin-left: var(--sidebar-width);
 }
 
+.close-button {
+  color: grey;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 270;
+  padding: 3px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.close-button:active {
+  color: rgb(255, 132, 0);
+}
+
 .image-grid {
   display: grid;
   height: 35vw;
@@ -23,6 +38,19 @@
   border-bottom: solid black 1px;
 
   /* filter: grayscale(100%); */
+}
+
+.loading-spinner {
+  animation: fixedInSafari 1300ms infinite linear;
+}
+
+@keyframes fixedInSafari {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes slide {

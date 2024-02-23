@@ -53,8 +53,9 @@ export default function LiveSessions({ liveSessions }) {
               cursor: "pointer",
             }}
             onClick={handleClose}
+            className="close-button"
           >
-            <TfiClose strokeWidth={0.5} color="grey" size={35} />
+            <TfiClose strokeWidth={0.5} size={35} />
           </div>
         </div>
       )}

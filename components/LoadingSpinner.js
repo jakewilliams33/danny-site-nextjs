@@ -11,6 +11,7 @@ export const LoadingSpinner = ({
   return (
     <div style={styleParams}>
       <svg
+        className="loading-spinner"
         width={size}
         height={size}
         viewBox="0 0 200 200"
@@ -45,14 +46,14 @@ export const LoadingSpinner = ({
           />
         </g>
 
-        <animateTransform
+        {/* <animateTransform
           from="0 0 0"
           to="360 0 0"
           attributeName="transform"
           type="rotate"
           repeatCount="indefinite"
           dur="1300ms"
-        />
+        /> */}
       </svg>
     </div>
   );

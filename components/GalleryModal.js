@@ -25,9 +25,10 @@ export default function GalleryModal({
               margin: "8px",
               cursor: "pointer",
             }}
+            className="close-button"
             onClick={handleClose}
           >
-            <TfiClose color="grey" size={35} strokeWidth={0.5} />
+            <TfiClose size={35} strokeWidth={0.5} />
           </div>
           <div
             style={{
