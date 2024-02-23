@@ -4,6 +4,8 @@ import { useState } from "react";
 import "../styles/live-sessions.css";
 import { TfiClose } from "react-icons/tfi";
 import { attributes } from "../content/live-sessions.md";
+import { enableBackButton, useBackClose } from "../hooks/useBackClose";
+import { LoadingSpinner } from "./LoadingSpinner";
 
 let { videourls } = attributes;
 
@@ -13,11 +15,13 @@ export default function LiveSessions({ liveSessions }) {
   const handleClick = (item) => {
     setVideoUrl(item);
     document.body.style.overflow = "hidden";
+    useBackClose(handleClose);
   };
 
   const handleClose = () => {
     setVideoUrl(null);
     document.body.style.overflow = "visible";
+    enableBackButton();
   };
 
   return (
@@ -78,6 +82,10 @@ export default function LiveSessions({ liveSessions }) {
             maxHeight: "500px",
           }}
         >
+          <div style={{ zIndex: -1 }}>
+            <LoadingSpinner />
+          </div>
+
           <ReactPlayer width="100%" height="100%" controls url={videoUrl} />
         </div>
       )}
