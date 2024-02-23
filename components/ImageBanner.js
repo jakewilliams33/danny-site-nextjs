@@ -37,7 +37,7 @@ export default function ImageBanner() {
         className="image-grid"
         style={{
           gridTemplateColumns: `repeat(${images.length * 2}, 1fr)`,
-          width: `${33.37 * (images.length * 2)}%`,
+          width: `${33.37 * (images.length * 2)}vw`,
         }}
       >
         {images.map((item, index) => {
