@@ -12,10 +12,12 @@ export default function LiveSessions({ liveSessions }) {
 
   const handleClick = (item) => {
     setVideoUrl(item);
+    document.body.style.overflow = "hidden";
   };
 
   const handleClose = () => {
     setVideoUrl(null);
+    document.body.style.overflow = "scroll";
   };
 
   return (
