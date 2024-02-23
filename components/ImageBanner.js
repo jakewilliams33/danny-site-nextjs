@@ -64,7 +64,6 @@ export default function ImageBanner() {
           );
         })}
       </section>
-      {images.length}
     </>
   );
 }
