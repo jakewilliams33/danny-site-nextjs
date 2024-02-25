@@ -14,6 +14,7 @@ const Menu = ({
   const handleClick = (page) => {
     setMenuOpen(false);
     scrollToSection(page);
+    document.body.style.overflow = "visible";
   };
 
   return (
