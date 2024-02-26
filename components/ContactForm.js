@@ -67,12 +67,12 @@ export default function ContactForm({ contactForm }) {
               <p>
                 <label>
                   Message:{" "}
-                  <span
+                  <textarea
                     role="textbox"
                     contentEditable="true"
                     name="message"
                     className="textarea"
-                  ></span>
+                  ></textarea>
                 </label>
               </p>
               <p>
