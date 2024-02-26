@@ -6,7 +6,7 @@ releases:
     image: /images/600x600bb-1.jpg
     roles:
       - " Produced"
-    credit: Mastered by Forest Whittaker
+    credit: Mastered by Forest Whittaker 2
     info: this is a fun fact about the song or something I don't know what you
       wanted to put here but you can leave it blank if need be.
   - artist: Neoplastic
