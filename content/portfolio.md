@@ -56,15 +56,17 @@ releases:
     roles:
       - " Produced"
       - " Mixed"
-    credit: Mastered by someone else
-    info: this is a fun fact about the song or something I don't know what you
-      wanted to put here but you can leave it blank if need be.
+      - " Mastered"
+    credit: Recorded in my old home studio at 6 Granby View Headingly.
+    info: I also played drums on this track!
   - artist: Entelechy
     title: Steely Eyes
     spotify: https://open.spotify.com/track/1PUxSf570ktIxjKx8asd6I?go=1&sp_cid=0eea58ae5d118519f3fb18ffb21908af&utm_source=embed_player_p&utm_medium=desktop&nd=1&dlsi=48d916c6809947ee
     image: /images/600x600bb-5.jpg
     roles:
+      - " Produced"
       - " Mixed"
-    credit: Dunno
+      - " Mastered"
+    credit: Recorded in studio 2 at The Nave.
     info: Something here
 ---
