@@ -16,8 +16,7 @@ releases:
     roles:
       - " Produced"
       - " Mixed"
-      - " Engineered"
-    credit: Mastered by Joseph Stalin
+    credit: Recorded in studio 2 at The Nave. Mastered by Hippocratic Mastering.
     info: this is a fun fact about the song or something I don't know what you
       wanted to put here but you can leave it blank if need be.
   - artist: Adult DVD
@@ -36,9 +35,8 @@ releases:
     roles:
       - " Produced"
       - " Mixed"
-    credit: Mastered by someone good
-    info: this is a fun fact about the song or something I don't know what you
-      wanted to put here but you can leave it blank if need be.
+    credit: Recorded in studio 1 at The Nave
+    info: " "
   - artist: Spielmann
     title: Coming Back
     spotify: https://open.spotify.com/track/4jcFATOmJA67MIxgXFF3c6?si=340be0fbe7d44766
