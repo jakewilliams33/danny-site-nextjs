@@ -43,8 +43,18 @@ collections:
                   multiple: true,
                   options: [" Produced", " Mixed", " Mastered", " Engineered"],
                 }
-              - { label: "Other Credit", name: "credit", widget: "string" }
-              - { label: "Song Info", name: "info", widget: "string" }
+              - {
+                  label: "Other Credit",
+                  name: "credit",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Song Info",
+                  name: "info",
+                  widget: "string",
+                  required: false,
+                }
       - label: Live Sessions
         name: livesessions
         file: "content/live-sessions.md"
