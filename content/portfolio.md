@@ -165,16 +165,16 @@ releases:
       - " Mixed"
       - " Engineered"
     credit: Recorded and mixed at Granby View in my old home studio
-  - artist: Mother Said
-    title: Tallulah
-    spotify: https://open.spotify.com/track/6iXcYnK4ReD8wWEsY4fIWc?si=209e19635eea4010
-    image: /images/a0555614339_10.jpeg
+  - artist: Tiss Vampiric
+    title: Take It, Eat It, My Body
+    spotify: https://open.spotify.com/track/1Op3uFr8QUaVK4xKXhFvuS?si=91e89a2485d945aa
+    image: /images/1200x1200bf-60.jpeg
     roles:
       - " Produced"
       - " Engineered"
       - " Mixed"
       - " Mastered"
-    credit: Recorded in Studio 1 at The Nave
+    credit: Recorded in my old studio at 6 Granby View.
   - artist: Immerse
     title: S.H.T
     spotify: https://open.spotify.com/track/29MUdo11Gs3Vb9euwZQssx?si=ecd6f8491d5241ce
