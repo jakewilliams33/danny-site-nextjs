@@ -1,8 +1,13 @@
 ---
 images:
   - image: images/danny.jpg
-  - image: images/drums.png
+  - image: /images/img_2436.jpg
   - image: images/danny2.jpg
-  - image: images/dannynew2.jpeg
+  - image: /images/d60ecb2c-ba55-45d9-b00d-329362e5829d.jpg
   - image: images/studio.png
+  - image: /images/img_2319.jpg
+  - image: /images/f32aaf8a-8f46-4f79-9130-3a1e88bcde29.jpg
+  - image: /images/img_1956.jpg
+  - image: /images/34347e37-4ea8-4d07-8841-2e8493b19da6.jpg
+  - image: /images/img_2322.jpg
 ---
