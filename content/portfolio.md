@@ -8,7 +8,7 @@ releases:
       - " Produced"
       - " Mixed"
     credit: Recorded in studio 1 at Nave Studios. Mastered by Kane Whitelam
-    info: Blank
+    info: ""
   - artist: Neoplastic
     title: Love, Barely
     spotify: https://open.spotify.com/track/3KQhpda6V8dfKXBaQdZlNi?si=fb1f665da03d4b8e
@@ -17,7 +17,7 @@ releases:
       - " Produced"
       - " Mixed"
     credit: Recorded in studio 2 at The Nave. Mastered by Hippocratic Mastering.
-    info: Blank
+    info: ""
   - artist: Adult DVD
     title: Bill Murray
     spotify: https://open.spotify.com/track/0Umhmtk4SDzt8wO2nDmOrR?si=4a84f3d946864a88
@@ -26,7 +26,7 @@ releases:
       - " Mixed"
       - " Engineered"
     credit: Mastered by Greg Calbi
-    info: This is a track by my band. I play guitar and synth in Adult DVD.
+    info: This is a track by my band. I played guitar and synth on this recording.
   - artist: Mother Said
     title: Catholic Guilt
     spotify: https://open.spotify.com/track/110WYgLcF89R0XDgdQVttX?si=ca179047d8be40f8
@@ -34,6 +34,7 @@ releases:
     roles:
       - " Produced"
       - " Mixed"
+      - " Engineered"
     credit: Recorded in studio 1 at The Nave
     info: " "
   - artist: Spielmann
@@ -43,10 +44,8 @@ releases:
     roles:
       - " Mixed"
       - " Mastered"
-      - " Engineered"
-      - " Produced"
     credit: Recorded in my old home studio at 6 Granby View Headingly.
-    info: I also played drums on this track.
+    info: ""
   - spotify: https://open.spotify.com/track/3QTsqZWoDPAJFeVJmY1HRJ?si=1b4d6f208cb34f7b
     artist: Coal Mob
     title: Ceiling
@@ -54,8 +53,10 @@ releases:
     roles:
       - " Produced"
       - " Mixed"
-    credit: Mastered by Dom Richmond at Eiger Studios Leeds.
-    info: Blank
+      - " Engineered"
+    credit: Recorded in studio 2 at The Nave. Mastered by Dom Richmond at Eiger
+      Studios Leeds.
+    info: ""
   - artist: Masi Masi
     title: Moaner Lisa
     spotify: https://open.spotify.com/track/00yj2j95dSqUIyZrqxg5pL?si=44717dfe71d547b6
@@ -64,8 +65,9 @@ releases:
       - " Produced"
       - " Mixed"
       - " Mastered"
+      - " Engineered"
     credit: Recorded in my old home studio at 6 Granby View Headingly.
-    info: Session drums from me on this track too!
+    info: Session drums from me on this track too.
   - artist: Entelechy
     title: Steely Eyes
     spotify: https://open.spotify.com/track/1PUxSf570ktIxjKx8asd6I?go=1&sp_cid=0eea58ae5d118519f3fb18ffb21908af&utm_source=embed_player_p&utm_medium=desktop&nd=1&dlsi=48d916c6809947ee
@@ -74,15 +76,18 @@ releases:
       - " Produced"
       - " Mixed"
       - " Mastered"
+      - " Engineered"
     credit: Recorded in studio 2 at The Nave.
-    info: Blank
+    info: ""
   - artist: MASI MASI
     title: Comfort Me
     spotify: https://open.spotify.com/track/0HNGU9kyhfL3H1NYC401A0?si=740858ed2e3f4013
     image: /images/1200x630bb.jpeg
     roles:
       - " Produced"
-    credit: Additional production and mixing from Ryan Benyo in LA
+      - " Engineered"
+    credit: Session drums from me on this one. Additional production and mixing from
+      Ryan Benyo in LA
     info: Session drums from me on this one too, recorded from my home studio at
       Bankfield Terrace, Leeds.
   - artist: Adult DVD
@@ -93,7 +98,7 @@ releases:
       - " Produced"
       - " Mixed"
     credit: Mastered by Hippocratic Mastering, Leeds.
-    info: This is a track by my band. I play guitar and synth in Adult DVD.
+    info: ""
   - artist: Mother Said
     title: Stigmata
     spotify: https://open.spotify.com/track/3luXISMYjVzyOvpDBOem4q?si=27e5ae31e2104060
@@ -103,7 +108,7 @@ releases:
       - " Mixed"
       - " Engineered"
     credit: Recorded in studios 1 and 2 at The Nave.
-    info: Blank
+    info: ""
   - artist: Bad Idea
     title: Crash
     spotify: https://open.spotify.com/track/51RKd45NNd6iZcOqEKtLZE?si=96ecd7b87180418e
@@ -115,13 +120,14 @@ releases:
     info: ""
     image: /images/a3599353812_5.jpeg
   - artist: Adult DVD
-    title: Sadman Mancave
-    spotify: https://open.spotify.com/track/3ap3V9N1KDlNlE7nV53iCx?si=b4a59135a515496e
-    image: /images/artworks-yeyrhjon9rktfmxo-4ogu9q-t500x500.jpeg
+    title: Broken English
+    spotify: https://open.spotify.com/track/6QdjEOaORnqIRXiqUsYYtM?si=c77178a244ff4f4f
+    image: /images/artworks-sazjysmcqmcbdzjw-io6zjq-t500x500.jpeg
     roles:
       - " Produced"
       - " Mixed"
-    credit: Mastered at Hippocratic Mastering
+    credit: Mastered by James Grover
+    info: ""
   - artist: Jessie Marcella
     title: Luminescence
     spotify: https://open.spotify.com/track/441M07sKaXESCxdBfBOi7E?si=b63a3d9bedc245ee
@@ -140,12 +146,13 @@ releases:
       - " Mastered"
   - artist: Harry Hanson
     title: Time Well Spent
-    image: /images/1200x1200bf-60.jpeg
+    image: /images/harry.jpeg
     spotify: https://open.spotify.com/track/4YNnWGIugkXriHcyv5zAbC?si=ba82312f94f744fe
     roles:
       - " Produced"
       - " Mixed"
       - " Engineered"
+    credit: Mastered by James Grover
   - artist: Uncle Buzzard
     spotify: https://open.spotify.com/track/6hxYavhCWakKfMebVrQ1YX?si=b28ceb3d3caf47d3
     title: Big Cat
@@ -153,7 +160,8 @@ releases:
     roles:
       - " Produced"
       - " Mixed"
-    credit: Engineered by Peter Leach at Leeds Beckett Studios
+    credit: Engineered by Peter Leach at Leeds Beckett Studios. Mastered by James
+      Grover.
     info: This is a track from my old band. I played drums, bass and guitar on this
       recording.
   - artist: Adult DVD
