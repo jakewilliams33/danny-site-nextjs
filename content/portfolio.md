@@ -65,7 +65,7 @@ releases:
       - " Mixed"
       - " Mastered"
     credit: Recorded in my old home studio at 6 Granby View Headingly.
-    info: I also played drums on this track.
+    info: Session drums from me on this track too!
   - artist: Entelechy
     title: Steely Eyes
     spotify: https://open.spotify.com/track/1PUxSf570ktIxjKx8asd6I?go=1&sp_cid=0eea58ae5d118519f3fb18ffb21908af&utm_source=embed_player_p&utm_medium=desktop&nd=1&dlsi=48d916c6809947ee
@@ -104,4 +104,83 @@ releases:
       - " Engineered"
     credit: Recorded in studios 1 and 2 at The Nave.
     info: Blank
+  - artist: Bad Idea
+    title: Crash
+    spotify: https://open.spotify.com/track/51RKd45NNd6iZcOqEKtLZE?si=96ecd7b87180418e
+    roles:
+      - " Produced"
+      - " Engineered"
+      - " Mixed"
+    credit: Recorded at Granby View in my home studio. Mastered by Charlie Peacock
+    info: ""
+    image: /images/a3599353812_5.jpeg
+  - artist: Adult DVD
+    title: Sadman Mancave
+    spotify: https://open.spotify.com/track/3ap3V9N1KDlNlE7nV53iCx?si=b4a59135a515496e
+    image: /images/artworks-yeyrhjon9rktfmxo-4ogu9q-t500x500.jpeg
+    roles:
+      - " Produced"
+      - " Mixed"
+    credit: Mastered at Hippocratic Mastering
+  - artist: Jessie Marcella
+    title: Luminescence
+    spotify: https://open.spotify.com/track/441M07sKaXESCxdBfBOi7E?si=b63a3d9bedc245ee
+    image: /images/416953.jpeg
+    roles:
+      - " Mixed"
+    credit: Additional mixing by Jessie Marcella and Joe Garratt
+    info: I mixed the live strings on this track, which were recorded at WR Studios
+      Salford.
+  - artist: Georges Legrand
+    title: Velvet in the Bookshelves
+    spotify: https://open.spotify.com/track/0S1T6XhPiUAB9oySThHUBw?si=d414e78ab0864c57
+    image: /images/96003148_559041321676694_7488987208196554752_n.jpeg
+    roles:
+      - " Mixed"
+      - " Mastered"
+  - artist: Harry Hanson
+    title: Time Well Spent
+    image: /images/1200x1200bf-60.jpeg
+    spotify: https://open.spotify.com/track/4YNnWGIugkXriHcyv5zAbC?si=ba82312f94f744fe
+    roles:
+      - " Produced"
+      - " Mixed"
+      - " Engineered"
+  - artist: Uncle Buzzard
+    spotify: https://open.spotify.com/track/6hxYavhCWakKfMebVrQ1YX?si=b28ceb3d3caf47d3
+    title: Big Cat
+    image: /images/buzzard.jpeg
+    roles:
+      - " Produced"
+      - " Mixed"
+    credit: Engineered by Peter Leach at Leeds Beckett Studios
+    info: This is a track from my old band. I played drums, bass and guitar on this
+      recording.
+  - artist: Adult DVD
+    title: Broken English
+    spotify: https://open.spotify.com/track/6QdjEOaORnqIRXiqUsYYtM?si=ddbdfdc1d8a8485e
+    image: /images/artworks-sazjysmcqmcbdzjw-io6zjq-t500x500.jpeg
+    roles:
+      - " Produced"
+      - " Mixed"
+      - " Engineered"
+    credit: Recorded and mixed at Granby View in my old home studio
+  - artist: Mother Said
+    title: Tallulah
+    spotify: https://open.spotify.com/track/6iXcYnK4ReD8wWEsY4fIWc?si=209e19635eea4010
+    image: /images/a0555614339_10.jpeg
+    roles:
+      - " Produced"
+      - " Engineered"
+      - " Mixed"
+      - " Mastered"
+    credit: Recorded in Studio 1 at The Nave
+  - artist: Immerse
+    title: S.H.T
+    spotify: https://open.spotify.com/track/29MUdo11Gs3Vb9euwZQssx?si=ecd6f8491d5241ce
+    image: /images/a2512405967_10.jpeg
+    roles:
+      - " Engineered"
+    credit: Produced and mixed by Robin Adams
+    info: I engineered drums for this track with Robin in Studio 1 at The Nave
 ---
