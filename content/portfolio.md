@@ -7,6 +7,7 @@ releases:
     roles:
       - " Produced"
       - " Mixed"
+      - " Engineered"
     credit: Recorded in studio 1 at Nave Studios. Mastered by Kane Whitelam
     info: ""
   - artist: Neoplastic
@@ -26,7 +27,7 @@ releases:
       - " Produced"
       - " Mixed"
       - " Engineered"
-    credit: Recorded in studio 1 at The Nave
+    credit: Recorded in studio 1 at The Nave.
     info: " "
   - artist: Spielmann
     title: Coming Back
@@ -35,7 +36,7 @@ releases:
     roles:
       - " Mixed"
       - " Mastered"
-    credit: Recorded in my old home studio at 6 Granby View Headingly.
+    credit: Produced by Spielmann
     info: ""
   - spotify: https://open.spotify.com/track/3QTsqZWoDPAJFeVJmY1HRJ?si=1b4d6f208cb34f7b
     artist: Coal Mob
@@ -112,8 +113,8 @@ releases:
     image: /images/a3599353812_5.jpeg
   - artist: Adult DVD
     title: Broken English
-    spotify: https://open.spotify.com/track/6QdjEOaORnqIRXiqUsYYtM?si=c77178a244ff4f4f
-    image: /images/artworks-sazjysmcqmcbdzjw-io6zjq-t500x500.jpeg
+    spotify: https://open.spotify.com/track/0Umhmtk4SDzt8wO2nDmOrR?si=fc4126f05e0c4411
+    image: /images/600x600bb.jpg
     roles:
       - " Produced"
       - " Mixed"
@@ -125,7 +126,7 @@ releases:
     image: /images/416953.jpeg
     roles:
       - " Mixed"
-    credit: Additional mixing by Jessie Marcella and Joe Garratt
+    credit: Additional mixing by Jessie Marcella and Joe Garratt.
     info: I mixed the live strings on this track, which were recorded at WR Studios
       Salford.
   - artist: Georges Legrand
@@ -181,5 +182,14 @@ releases:
     roles:
       - " Engineered"
     credit: Produced and mixed by Robin Adams
-    info: I engineered drums for this track with Robin in Studio 1 at The Nave
+    info: I engineered drums for this track with Robin in Studio 1 at The Nave.
+  - artist: Neoplastic
+    title: Monday in Heaven
+    image: /images/neoplastic-mon.jpeg
+    spotify: https://open.spotify.com/track/11eb7bxslPVvttPPfoyMBE?si=fe61bc58c06f41b5
+    roles:
+      - " Produced"
+      - " Engineered"
+      - " Mixed"
+    credit: Recorded in studio 2 at The Nave. Mastered by Hippocratic Mastering
 ---
