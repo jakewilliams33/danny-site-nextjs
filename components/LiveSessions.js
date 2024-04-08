@@ -12,8 +12,8 @@ let { videourls } = attributes;
 export default function LiveSessions({ liveSessions }) {
   const [videoUrl, setVideoUrl] = useState("");
 
-  const handleClick = (item) => {
-    setVideoUrl(item);
+  const handleClick = (url) => {
+    setVideoUrl(url);
     document.body.style.overflow = "hidden";
     useBackClose(handleClose);
   };
@@ -108,12 +108,12 @@ export default function LiveSessions({ liveSessions }) {
                 key={index}
                 className="grid-box"
                 onClick={() => {
-                  handleClick(item);
+                  handleClick(item.url);
                 }}
                 style={{ position: "relative" }}
               >
                 <img
-                  src={`https://img.youtube.com/vi/${item
+                  src={`https://img.youtube.com/vi/${item.url
                     .split("=")
                     .pop()
                     .slice(0, 11)}/hqdefault.jpg`}
