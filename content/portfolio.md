@@ -18,15 +18,6 @@ releases:
       - " Mixed"
     credit: Recorded in studio 2 at The Nave. Mastered by Hippocratic Mastering.
     info: ""
-  - artist: Adult DVD
-    title: Bill Murray
-    spotify: https://open.spotify.com/track/0Umhmtk4SDzt8wO2nDmOrR?si=4a84f3d946864a88
-    image: /images/600x600bb.jpg
-    roles:
-      - " Mixed"
-      - " Engineered"
-    credit: Mastered by Greg Calbi
-    info: This is a track by my band. I played guitar and synth on this recording.
   - artist: Mother Said
     title: Catholic Guilt
     spotify: https://open.spotify.com/track/110WYgLcF89R0XDgdQVttX?si=ca179047d8be40f8
