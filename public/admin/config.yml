@@ -55,8 +55,8 @@ collections:
                   widget: "string",
                   required: false,
                 }
-      - label: Live Sessions
-        name: livesessions
+      - label: "Live Sessions"
+        name: "livesessions"
         file: "content/live-sessions.md"
         fields:
           - label: "Video URLs"
