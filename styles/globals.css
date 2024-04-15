@@ -34,7 +34,7 @@
   display: grid;
   height: 35vw;
   max-height: 65vh;
-  animation: slide infinite linear 60s;
+  animation: slide infinite linear 240s;
   border-bottom: solid black 1px;
 
   /* filter: grayscale(100%); */

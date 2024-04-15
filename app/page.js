@@ -12,7 +12,6 @@ import ContactForm from "../components/ContactForm.js";
 
 export default function IndexPage() {
   const [menuOpen, setMenuOpen] = useState(false);
-
   const portfolio = useRef(null);
   const homePage = useRef(null);
   const liveSessions = useRef(null);
