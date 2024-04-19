@@ -38,16 +38,14 @@ releases:
       - " Mastered"
     credit: Produced by Spielmann
     info: ""
-  - spotify: https://open.spotify.com/track/3QTsqZWoDPAJFeVJmY1HRJ?si=1b4d6f208cb34f7b
-    artist: Coal Mob
-    title: Ceiling
-    image: /images/1709894908698.jpeg
+  - artist: Adult DVD
+    title: Sadman Mancave
+    spotify: https://open.spotify.com/track/3ap3V9N1KDlNlE7nV53iCx?si=2022e9e88cd546d6
+    image: /images/artworks-yeyrhjon9rktfmxo-4ogu9q-t500x500.jpeg
     roles:
       - " Produced"
       - " Mixed"
-      - " Engineered"
-    credit: Recorded in studio 2 at The Nave. Mastered by Dom Richmond at Eiger
-      Studios Leeds.
+    credit: Mastered by Hippocratic Mastering, Leeds.
     info: ""
   - artist: Masi Masi
     title: Moaner Lisa
@@ -82,14 +80,25 @@ releases:
       Ryan Benyo in LA
     info: Session drums from me on this one too, recorded from my home studio at
       Bankfield Terrace, Leeds.
-  - artist: Adult DVD
-    title: Sadman Mancave
-    spotify: https://open.spotify.com/track/3ap3V9N1KDlNlE7nV53iCx?si=2022e9e88cd546d6
-    image: /images/artworks-yeyrhjon9rktfmxo-4ogu9q-t500x500.jpeg
+  - artist: Jessie Marcella
+    title: Luminescence
+    spotify: https://open.spotify.com/track/441M07sKaXESCxdBfBOi7E?si=b63a3d9bedc245ee
+    image: /images/416953.jpeg
+    roles:
+      - " Mixed"
+    credit: Additional mixing by Jessie Marcella and Joe Garratt.
+    info: I mixed the live strings on this track, which were recorded at WR Studios
+      Salford.
+  - spotify: https://open.spotify.com/track/3QTsqZWoDPAJFeVJmY1HRJ?si=1b4d6f208cb34f7b
+    artist: Coal Mob
+    title: Ceiling
+    image: /images/1709894908698.jpeg
     roles:
       - " Produced"
       - " Mixed"
-    credit: Mastered by Hippocratic Mastering, Leeds.
+      - " Engineered"
+    credit: Recorded in studio 2 at The Nave. Mastered by Dom Richmond at Eiger
+      Studios Leeds.
     info: ""
   - artist: Mother Said
     title: Stigmata
@@ -101,16 +110,16 @@ releases:
       - " Engineered"
     credit: Recorded in studios 1 and 2 at The Nave.
     info: ""
-  - artist: Bad Idea
-    title: Crash
-    spotify: https://open.spotify.com/track/51RKd45NNd6iZcOqEKtLZE?si=96ecd7b87180418e
+  - artist: Tiss Vampiric
+    title: Take It, Eat It, My Body
+    spotify: https://open.spotify.com/track/1Op3uFr8QUaVK4xKXhFvuS?si=91e89a2485d945aa
+    image: /images/1200x1200bf-60.jpeg
     roles:
       - " Produced"
       - " Engineered"
       - " Mixed"
-    credit: Recorded at Granby View in my home studio. Mastered by Charlie Peacock
-    info: ""
-    image: /images/a3599353812_5.jpeg
+      - " Mastered"
+    credit: Recorded in my old studio at 6 Granby View.
   - artist: Adult DVD
     title: Broken English
     spotify: https://open.spotify.com/track/0Umhmtk4SDzt8wO2nDmOrR?si=fc4126f05e0c4411
@@ -120,15 +129,6 @@ releases:
       - " Mixed"
     credit: Mastered by James Grover
     info: ""
-  - artist: Jessie Marcella
-    title: Luminescence
-    spotify: https://open.spotify.com/track/441M07sKaXESCxdBfBOi7E?si=b63a3d9bedc245ee
-    image: /images/416953.jpeg
-    roles:
-      - " Mixed"
-    credit: Additional mixing by Jessie Marcella and Joe Garratt.
-    info: I mixed the live strings on this track, which were recorded at WR Studios
-      Salford.
   - artist: Georges Legrand
     title: Velvet in the Bookshelves
     spotify: https://open.spotify.com/track/0S1T6XhPiUAB9oySThHUBw?si=d414e78ab0864c57
@@ -145,6 +145,16 @@ releases:
       - " Mixed"
       - " Engineered"
     credit: Mastered by James Grover
+  - artist: Bad Idea
+    title: Crash
+    spotify: https://open.spotify.com/track/51RKd45NNd6iZcOqEKtLZE?si=96ecd7b87180418e
+    roles:
+      - " Produced"
+      - " Engineered"
+      - " Mixed"
+    credit: Recorded at Granby View in my home studio. Mastered by Charlie Peacock
+    info: ""
+    image: /images/a3599353812_5.jpeg
   - artist: Uncle Buzzard
     spotify: https://open.spotify.com/track/6hxYavhCWakKfMebVrQ1YX?si=b28ceb3d3caf47d3
     title: Big Cat
@@ -165,16 +175,6 @@ releases:
       - " Mixed"
       - " Engineered"
     credit: Recorded and mixed at Granby View in my old home studio
-  - artist: Tiss Vampiric
-    title: Take It, Eat It, My Body
-    spotify: https://open.spotify.com/track/1Op3uFr8QUaVK4xKXhFvuS?si=91e89a2485d945aa
-    image: /images/1200x1200bf-60.jpeg
-    roles:
-      - " Produced"
-      - " Engineered"
-      - " Mixed"
-      - " Mastered"
-    credit: Recorded in my old studio at 6 Granby View.
   - artist: Immerse
     title: S.H.T
     spotify: https://open.spotify.com/track/29MUdo11Gs3Vb9euwZQssx?si=ecd6f8491d5241ce
