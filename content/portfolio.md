@@ -1,5 +1,22 @@
 ---
 releases:
+  - artist: Adult DVD
+    title: Doomsday Prepper
+    spotify: https://open.spotify.com/track/3TlEVaCa0rl1px2Z53c4dF?si=dfbf2fc39d934cad
+    image: /images/ab67616d0000b273fa1cbc5e95a065e5db9e27b9.jpeg
+    roles:
+      - " Produced"
+      - " Mixed"
+      - " Engineered"
+    credit: Recorded at The Nave Studio 2
+    info: Mastered by Kane Whitelam
+  - spotify: https://open.spotify.com/track/5Fai6Mq99rlqZF2Lk7jOhm?si=1d529f6be3474d5b
+    artist: The Cutter
+    title: Pulling Me In
+    roles:
+      - " Mixed"
+    credit: Produced and recorded by the band
+    image: /images/images.jpeg
   - artist: Coal Mob
     title: Bounce
     spotify: https://open.spotify.com/track/1y10cCIG0wUlJoWcys8IIO?si=4d519a99cd444626
@@ -19,6 +36,16 @@ releases:
       - " Mixed"
     credit: Recorded in studio 2 at The Nave. Mastered by Hippocratic Mastering.
     info: ""
+  - artist: Adult DVD
+    title: 7 Foot 1
+    spotify: https://open.spotify.com/track/2vu2pw4QatuiP6w3JO8XHT?si=9542941199994f6f
+    roles:
+      - " Produced"
+      - " Mixed"
+      - " Engineered"
+    credit: Recorded at The Nave Studio 2
+    image: /images/ab67616d0000b273fa1cbc5e95a065e5db9e27b9.jpeg
+    info: Mastered by Kane Whitelam
   - artist: Mother Said
     title: Catholic Guilt
     spotify: https://open.spotify.com/track/110WYgLcF89R0XDgdQVttX?si=ca179047d8be40f8
@@ -166,15 +193,6 @@ releases:
       Grover.
     info: This is a track from my old band. I played drums, bass and guitar on this
       recording.
-  - artist: Adult DVD
-    title: Broken English
-    spotify: https://open.spotify.com/track/6QdjEOaORnqIRXiqUsYYtM?si=ddbdfdc1d8a8485e
-    image: /images/artworks-sazjysmcqmcbdzjw-io6zjq-t500x500.jpeg
-    roles:
-      - " Produced"
-      - " Mixed"
-      - " Engineered"
-    credit: Recorded and mixed at Granby View in my old home studio
   - artist: Immerse
     title: S.H.T
     spotify: https://open.spotify.com/track/29MUdo11Gs3Vb9euwZQssx?si=ecd6f8491d5241ce
