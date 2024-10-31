@@ -10,13 +10,40 @@ releases:
       - " Engineered"
     credit: Recorded at The Nave Studio 2
     info: Mastered by Kane Whitelam
-  - spotify: https://open.spotify.com/track/5Fai6Mq99rlqZF2Lk7jOhm?si=1d529f6be3474d5b
-    artist: The Cutter
-    title: Pulling Me In
+  - artist: The Cutter
+    title: Useless
+    spotify: https://open.spotify.com/track/1a8vj9bRhaXKt09eorfbHe?si=8bb102d1aa5b4c3b
+    image: /images/ab67616d00001e0245ed892d6301bb0dd53a7dd1.jpeg
     roles:
       - " Mixed"
-    credit: Produced and recorded by the band
-    image: /images/images.jpeg
+    credit: Recorded by The Cutter
+  - spotify: https://open.spotify.com/track/6oy6txyOaSuQeWn36UfKfe?si=9b32f9ab6831484e
+    artist: Bill Laurance
+    title: Set Piece
+    roles:
+      - " Engineered"
+    credit: Mixed by Nic Hard, Mastered by Dave McNair
+    image: /images/43vuwi-rhodesmk8s-preview-m3.jpg
+  - artist: GUTS.
+    title: Sittin' Pretty
+    spotify: https://open.spotify.com/track/1lHreGloUKMCfNym8quf4K?si=3913a2a7a8ef4355
+    roles:
+      - " Produced"
+      - " Engineered"
+      - " Mixed"
+    credit: Mastered by Pete Fletcher
+    info: Recorded live with minimal overdubs in studio 1 at The Nave
+    image: /images/a2643101364_10.jpg
+  - artist: Adult DVD
+    title: 7 Foot 1
+    spotify: https://open.spotify.com/track/2vu2pw4QatuiP6w3JO8XHT?si=9542941199994f6f
+    roles:
+      - " Produced"
+      - " Mixed"
+      - " Engineered"
+    credit: Recorded at The Nave Studio 2
+    image: /images/ab67616d0000b273fa1cbc5e95a065e5db9e27b9.jpeg
+    info: Mastered by Kane Whitelam
   - artist: Coal Mob
     title: Bounce
     spotify: https://open.spotify.com/track/1y10cCIG0wUlJoWcys8IIO?si=4d519a99cd444626
@@ -36,16 +63,13 @@ releases:
       - " Mixed"
     credit: Recorded in studio 2 at The Nave. Mastered by Hippocratic Mastering.
     info: ""
-  - artist: Adult DVD
-    title: 7 Foot 1
-    spotify: https://open.spotify.com/track/2vu2pw4QatuiP6w3JO8XHT?si=9542941199994f6f
+  - spotify: https://open.spotify.com/track/5Fai6Mq99rlqZF2Lk7jOhm?si=1d529f6be3474d5b
+    artist: The Cutter
+    title: Pulling Me In
     roles:
-      - " Produced"
       - " Mixed"
-      - " Engineered"
-    credit: Recorded at The Nave Studio 2
-    image: /images/ab67616d0000b273fa1cbc5e95a065e5db9e27b9.jpeg
-    info: Mastered by Kane Whitelam
+    credit: Produced and recorded by the band
+    image: /images/images.jpeg
   - artist: Mother Said
     title: Catholic Guilt
     spotify: https://open.spotify.com/track/110WYgLcF89R0XDgdQVttX?si=ca179047d8be40f8
@@ -74,6 +98,14 @@ releases:
       - " Mixed"
     credit: Mastered by Hippocratic Mastering, Leeds.
     info: ""
+  - artist: Nightbus
+    title: Exposed to Some Light - Adult DVD Remix
+    spotify: https://open.spotify.com/track/7iCBRX4YmSmoOvmXfw4pqa?si=89e71b021fec4b30
+    image: /images/66b57633d900c.webp
+    credit: Remixed by me for Nightbus. Original song produced by Alex Greaves at
+      The Nave.
+    roles:
+      - " Produced"
   - artist: Masi Masi
     title: Moaner Lisa
     spotify: https://open.spotify.com/track/00yj2j95dSqUIyZrqxg5pL?si=44717dfe71d547b6
@@ -193,14 +225,6 @@ releases:
       Grover.
     info: This is a track from my old band. I played drums, bass and guitar on this
       recording.
-  - artist: Immerse
-    title: S.H.T
-    spotify: https://open.spotify.com/track/29MUdo11Gs3Vb9euwZQssx?si=ecd6f8491d5241ce
-    image: /images/a2512405967_10.jpeg
-    roles:
-      - " Engineered"
-    credit: Produced and mixed by Robin Adams
-    info: I engineered drums for this track with Robin in Studio 1 at The Nave.
   - artist: Neoplastic
     title: Monday in Heaven
     image: /images/neoplastic-mon.jpeg
