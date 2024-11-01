@@ -51,7 +51,7 @@ export default function IndexPage() {
         />
 
         <main className="all-container">
-          <HomePage homePage={homePage} />
+          <HomePage homePage={homePage} portfolio={portfolio} />
           {/*----------- end of front page -------------  */}
           <Portfolio portfolio={portfolio} />
           <LiveSessions liveSessions={liveSessions} />
