@@ -3,6 +3,4 @@ Hi I'm Danny, a Leeds based producer and engineer. I’m based out of\
 
 
 
-
-
 Check out some records I've worked on below!
