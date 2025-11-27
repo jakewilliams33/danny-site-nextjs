@@ -57,12 +57,13 @@ releases:
     credit: Recorded in studio 1 at Nave Studios.
     info: ""
   - artist: The Cutter
-    title: Useless
-    spotify: https://open.spotify.com/track/1a8vj9bRhaXKt09eorfbHe?si=8bb102d1aa5b4c3b
-    image: /images/ab67616d00001e0245ed892d6301bb0dd53a7dd1.jpeg
+    title: Defector
+    spotify: https://open.spotify.com/track/5s8JJMKKAd3jVNRGBW0mt3?si=183557655d664fe1
+    image: /images/the-cutter-ep-artwork.jpg.webp
     roles:
+      - " Produced"
       - " Mixed"
-    credit: Recorded by The Cutter
+    credit: Recorded In Studio 2 at The Nave
   - artist: Nightbus
     title: Exposed to Some Light - Adult DVD Remix
     spotify: https://open.spotify.com/track/7iCBRX4YmSmoOvmXfw4pqa?si=89e71b021fec4b30
@@ -71,17 +72,14 @@ releases:
       The Nave.
     roles:
       - " Produced"
-  - artist: MASI MASI
-    title: Comfort Me
-    spotify: https://open.spotify.com/track/0HNGU9kyhfL3H1NYC401A0?si=740858ed2e3f4013
-    image: /images/1200x630bb.jpeg
+  - artist: Amen Ensemble
+    title: Hiraeth
+    spotify: https://open.spotify.com/track/3xMku29wSEEsSdlSvzLOsc?si=c019bd174d1b4058
+    image: /images/cs7269709-02a-big.jpg
     roles:
-      - " Produced"
       - " Engineered"
-    credit: Session drums from me on this one. Additional production and mixing from
-      Ryan Benyo in LA
-    info: Session drums from me on this one too, recorded from my home studio at
-      Bankfield Terrace, Leeds.
+    credit: Recorded live in Studio 1 at The Nave
+    info: ""
   - artist: Jessie Marcella
     title: Luminescence
     spotify: https://open.spotify.com/track/441M07sKaXESCxdBfBOi7E?si=b63a3d9bedc245ee
@@ -91,13 +89,11 @@ releases:
     credit: Additional mixing by Jessie Marcella and Joe Garratt.
     info: I mixed the live strings on this track, which were recorded at WR Studios
       Salford.
-  - artist: Neoplastic
-    title: Minimal Living
-    image: /images/a1620157601_2.jpg
-    spotify: https://open.spotify.com/track/6dq7TRq4TKmAihChD71qit?si=7e599083c0fe4f00
+  - artist: Tom Sharp Jazz Orchestra
+    title: Daybreak
+    image: /images/hq720.jpeg
+    spotify: https://open.spotify.com/album/6A9mrw3Ug9GMhNMz6X9Qrn?si=7aJaumg0QyidmWL3BZsbVg
     roles:
-      - " Produced"
       - " Engineered"
-      - " Mixed"
-    credit: Recorded in studios 1 and 2 at The Nave
+    credit: Recorded live in Nave Studio 1
 ---
