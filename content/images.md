@@ -2,13 +2,11 @@
 images:
   - image: /images/img_0552.jpg
   - image: /images/img_2322.jpg
-  - image: /images/332ddce9-db5a-48de-a72c-d9b188cb0a0f.jpg
   - image: /images/4db87ba3-c938-409d-8d2e-60bf4fc54988.jpg
   - image: /images/img_2436.jpg
   - image: images/danny2.jpg
-  - image: images/studio.png
   - image: /images/img_2353.jpg
-  - image: /images/34347e37-4ea8-4d07-8841-2e8493b19da6.jpg
+  - image: /images/f3c049b8-0f66-4e8c-943c-4f0ec0cacb3a.jpg
   - image: images/danny.jpg
   - image: /images/img_2379.jpg
   - image: /images/f32aaf8a-8f46-4f79-9130-3a1e88bcde29.jpg
