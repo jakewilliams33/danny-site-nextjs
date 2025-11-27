@@ -3,7 +3,7 @@ images:
   - image: /images/img_0552.jpg
   - image: /images/img_2322.jpg
   - image: /images/332ddce9-db5a-48de-a72c-d9b188cb0a0f.jpg
-  - image: /images/img_2319.jpg
+  - image: /images/4db87ba3-c938-409d-8d2e-60bf4fc54988.jpg
   - image: /images/img_2436.jpg
   - image: images/danny2.jpg
   - image: images/studio.png
