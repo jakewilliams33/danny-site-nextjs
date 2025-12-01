@@ -80,15 +80,6 @@ releases:
       - " Engineered"
     credit: Recorded live in Studio 1 at The Nave
     info: ""
-  - artist: Jessie Marcella
-    title: Luminescence
-    spotify: https://open.spotify.com/track/441M07sKaXESCxdBfBOi7E?si=b63a3d9bedc245ee
-    image: /images/416953.jpeg
-    roles:
-      - " Mixed"
-    credit: Additional mixing by Jessie Marcella and Joe Garratt.
-    info: I mixed the live strings on this track, which were recorded at WR Studios
-      Salford.
   - artist: Tom Sharp Jazz Orchestra
     title: Daybreak
     image: /images/hq720.jpeg
