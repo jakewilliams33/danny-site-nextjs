@@ -36,6 +36,20 @@ releases:
       - " Engineered"
     credit: Recorded at The Nave Studio 2
     info: Mastered by Kane Whitelam
+  - artist: The Cutter
+    title: Defector
+    spotify: https://open.spotify.com/track/5s8JJMKKAd3jVNRGBW0mt3?si=183557655d664fe1
+    image: /images/the-cutter-ep-artwork.jpg.webp
+    roles:
+      - " Produced"
+      - " Mixed"
+    credit: Recorded In Studio 2 at The Nave
+  - spotify: https://open.spotify.com/track/5PvsWX6stS3nnnKYFOr7Yu?si=43ea2a817c424191
+    artist: Sky Valley Mistress
+    title: No Sleep
+    roles:
+      - " Engineered"
+    image: /images/a2873342111_16.jpg
   - artist: GUTS.
     title: Sittin' Pretty
     spotify: https://open.spotify.com/track/1lHreGloUKMCfNym8quf4K?si=3913a2a7a8ef4355
@@ -46,16 +60,6 @@ releases:
     credit: Mastered by Pete Fletcher
     info: Recorded live with minimal overdubs in studio 1 at The Nave
     image: /images/a2643101364_10.jpg
-  - artist: Adult DVD
-    title: 7 Foot 1
-    spotify: https://open.spotify.com/track/2vu2pw4QatuiP6w3JO8XHT?si=9542941199994f6f
-    roles:
-      - " Produced"
-      - " Mixed"
-      - " Engineered"
-    credit: Recorded at The Nave Studio 2
-    image: /images/ab67616d0000b273fa1cbc5e95a065e5db9e27b9.jpeg
-    info: Mastered by Kane Whitelam
   - artist: Coal Mob
     title: Cutting Corners
     spotify: https://open.spotify.com/track/6cBsgiOmd9mGiiPe7RYhC0?si=9ce45e7a05784bf4
@@ -66,14 +70,6 @@ releases:
       - " Engineered"
     credit: Recorded in studio 1 at Nave Studios.
     info: ""
-  - artist: The Cutter
-    title: Defector
-    spotify: https://open.spotify.com/track/5s8JJMKKAd3jVNRGBW0mt3?si=183557655d664fe1
-    image: /images/the-cutter-ep-artwork.jpg.webp
-    roles:
-      - " Produced"
-      - " Mixed"
-    credit: Recorded In Studio 2 at The Nave
   - artist: Nightbus
     title: Exposed to Some Light - Adult DVD Remix
     spotify: https://open.spotify.com/track/7iCBRX4YmSmoOvmXfw4pqa?si=89e71b021fec4b30
@@ -97,20 +93,4 @@ releases:
     roles:
       - " Engineered"
     credit: Recorded live in Nave Studio 1
-  - artist: The Cutter
-    spotify: https://open.spotify.com/track/5s8JJMKKAd3jVNRGBW0mt3?si=94e90707716a4a92
-    title: Defector
-    roles:
-      - " Produced"
-      - " Engineered"
-      - " Mixed"
-      - " Mastered"
-    credit: Played drums on this track too.
-    image: /images/a2890816319_10.png
-  - spotify: https://open.spotify.com/track/5PvsWX6stS3nnnKYFOr7Yu?si=43ea2a817c424191
-    artist: Sky Valley Mistress
-    title: No Sleep
-    roles:
-      - " Engineered"
-    image: /images/a2873342111_16.jpg
 ---
