@@ -1,5 +1,15 @@
 ---
 releases:
+  - artist: Adult DVD
+    title: Real Tree Lee
+    spotify: https://open.spotify.com/track/1MCsJBk8H4ku4v6PNqi0P4?si=7f27d780031340d8
+    roles:
+      - " Produced"
+      - " Mixed"
+      - " Mastered"
+      - " Engineered"
+    credit: This is a track from my band Adult DVD.
+    image: /images/a3413595461_16.jpg
   - spotify: https://open.spotify.com/track/6TCwlWopMPv7Ire48H49UZ?si=78795daadca94905
     artist: The Cutter
     title: Stereotype
@@ -9,6 +19,13 @@ releases:
       - " Mixed"
     credit: Recorded in Studio 1 at The Nave
     image: /images/ab67616d0000b273947d4e06f2bf618d43cacd0e.jpeg
+  - spotify: https://open.spotify.com/track/6oy6txyOaSuQeWn36UfKfe?si=9b32f9ab6831484e
+    artist: Bill Laurance
+    title: Set Piece
+    roles:
+      - " Engineered"
+    credit: Mixed by Nic Hard, Mastered by Dave McNair
+    image: /images/43vuwi-rhodesmk8s-preview-m3.jpg
   - artist: Adult DVD
     title: Doomsday Prepper
     spotify: https://open.spotify.com/track/3TlEVaCa0rl1px2Z53c4dF?si=dfbf2fc39d934cad
@@ -19,13 +36,6 @@ releases:
       - " Engineered"
     credit: Recorded at The Nave Studio 2
     info: Mastered by Kane Whitelam
-  - spotify: https://open.spotify.com/track/6oy6txyOaSuQeWn36UfKfe?si=9b32f9ab6831484e
-    artist: Bill Laurance
-    title: Set Piece
-    roles:
-      - " Engineered"
-    credit: Mixed by Nic Hard, Mastered by Dave McNair
-    image: /images/43vuwi-rhodesmk8s-preview-m3.jpg
   - artist: GUTS.
     title: Sittin' Pretty
     spotify: https://open.spotify.com/track/1lHreGloUKMCfNym8quf4K?si=3913a2a7a8ef4355
@@ -87,4 +97,20 @@ releases:
     roles:
       - " Engineered"
     credit: Recorded live in Nave Studio 1
+  - artist: The Cutter
+    spotify: https://open.spotify.com/track/5s8JJMKKAd3jVNRGBW0mt3?si=94e90707716a4a92
+    title: Defector
+    roles:
+      - " Produced"
+      - " Engineered"
+      - " Mixed"
+      - " Mastered"
+    credit: Played drums on this track too.
+    image: /images/a2890816319_10.png
+  - spotify: https://open.spotify.com/track/5PvsWX6stS3nnnKYFOr7Yu?si=43ea2a817c424191
+    artist: Sky Valley Mistress
+    title: No Sleep
+    roles:
+      - " Engineered"
+    image: /images/a2873342111_16.jpg
 ---
