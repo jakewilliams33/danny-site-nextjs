@@ -36,6 +36,14 @@ releases:
       - " Engineered"
     credit: Recorded at The Nave Studio 2
     info: Mastered by Kane Whitelam
+  - spotify: https://open.spotify.com/track/6F6rqOGEn2zAjCYCMFGuZH?si=c7e1a716c7cf415c
+    artist: CAD
+    title: Iridescent
+    image: /images/a3162710302_1x1_700.avif
+    roles:
+      - " Produced"
+      - " Engineered"
+      - " Mixed"
   - artist: The Cutter
     title: Defector
     spotify: https://open.spotify.com/track/5s8JJMKKAd3jVNRGBW0mt3?si=183557655d664fe1
