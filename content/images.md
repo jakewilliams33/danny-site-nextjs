@@ -9,8 +9,6 @@ images:
   - image: /images/f3c049b8-0f66-4e8c-943c-4f0ec0cacb3a.jpg
   - image: images/danny.jpg
   - image: /images/img_2379.jpg
-  - image: /images/f32aaf8a-8f46-4f79-9130-3a1e88bcde29.jpg
-  - image: /images/img_5763.jpg
   - image: /images/img_2191.jpg
   - image: /images/img_2386.jpg
   - image: /images/img_5217.png
