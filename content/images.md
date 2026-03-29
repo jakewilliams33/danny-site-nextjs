@@ -13,4 +13,10 @@ images:
   - image: /images/img_5763.jpg
   - image: /images/img_2191.jpg
   - image: /images/img_2386.jpg
+  - image: /images/img_5217.png
+  - image: /images/img_5845.png
+  - image: /images/img_6499.png
+  - image: /images/img_6524.png
+  - image: /images/img_5877.png
+  - image: /images/img_6512.png
 ---
