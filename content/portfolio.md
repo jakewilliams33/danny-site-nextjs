@@ -49,15 +49,6 @@ releases:
     roles:
       - " Engineered"
     image: /images/a2873342111_16.jpg
-  - spotify: https://open.spotify.com/track/6TCwlWopMPv7Ire48H49UZ?si=78795daadca94905
-    artist: The Cutter
-    title: Stereotype
-    roles:
-      - " Produced"
-      - " Engineered"
-      - " Mixed"
-    credit: Recorded in Studio 1 at The Nave
-    image: /images/ab67616d0000b273947d4e06f2bf618d43cacd0e.jpeg
   - artist: GUTS.
     title: The Longest Day Of Your Life
     spotify: https://open.spotify.com/track/3hGJnhzKMoUiAcof8evgpA?si=1dc9cfe35a724d8d
@@ -68,16 +59,6 @@ releases:
     credit: Mastered by Pete Fletcher
     info: Recorded live with minimal overdubs in studio 1 at The Nave
     image: /images/a2643101364_10.jpg
-  - artist: CAD
-    title: Forgiveness
-    spotify: https://open.spotify.com/track/3vxyvzq2vw8sICkMDHO0sJ?si=6263ec9a16d44416
-    image: /images/a3162710302_1x1_700.avif
-    roles:
-      - " Produced"
-      - " Mixed"
-      - " Engineered"
-    credit: Recorded in studio 1 at Nave Studios.
-    info: ""
   - artist: Nightbus
     title: Exposed to Some Light - Adult DVD Remix
     spotify: https://open.spotify.com/track/7iCBRX4YmSmoOvmXfw4pqa?si=89e71b021fec4b30
