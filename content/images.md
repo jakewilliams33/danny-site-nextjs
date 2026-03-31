@@ -1,20 +1,20 @@
 ---
 images:
-  - image: /images/img_0552.jpg
-  - image: /images/img_2322.jpg
+  - image: /images/img_5845.png
+  - image: /images/img_6524.png
   - image: /images/4db87ba3-c938-409d-8d2e-60bf4fc54988.jpg
+  - image: /images/img_6512.png
+  - image: /images/img_5877.png
+  - image: /images/img_5217.png
   - image: /images/img_2436.jpg
   - image: images/danny2.jpg
   - image: /images/img_2353.jpg
-  - image: /images/f3c049b8-0f66-4e8c-943c-4f0ec0cacb3a.jpg
-  - image: images/danny.jpg
   - image: /images/img_2379.jpg
+  - image: /images/f3c049b8-0f66-4e8c-943c-4f0ec0cacb3a.jpg
+  - image: /images/img_2322.jpg
   - image: /images/img_2191.jpg
-  - image: /images/img_2386.jpg
-  - image: /images/img_5217.png
-  - image: /images/img_5845.png
+  - image: /images/img_0552.jpg
   - image: /images/img_6499.png
-  - image: /images/img_6524.png
-  - image: /images/img_5877.png
-  - image: /images/img_6512.png
+  - image: images/danny.jpg
+  - image: /images/img_2386.jpg
 ---
