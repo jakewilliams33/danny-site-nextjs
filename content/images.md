@@ -12,9 +12,5 @@ images:
   - image: /images/img_2379.jpg
   - image: /images/f3c049b8-0f66-4e8c-943c-4f0ec0cacb3a.jpg
   - image: /images/img_2322.jpg
-  - image: /images/img_2191.jpg
-  - image: /images/img_0552.jpg
   - image: /images/img_6499.png
-  - image: images/danny.jpg
-  - image: /images/img_2386.jpg
 ---
