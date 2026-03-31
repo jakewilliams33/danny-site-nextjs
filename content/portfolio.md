@@ -28,9 +28,9 @@ releases:
       - " Engineered"
     credit: Recorded at The Nave Studio 2
     info: Mastered by Kane Whitelam
-  - spotify: https://open.spotify.com/track/6F6rqOGEn2zAjCYCMFGuZH?si=c7e1a716c7cf415c
+  - spotify: https://open.spotify.com/album/3kpYhufBXBnpSFG4EpMh1v?si=2p-2O2VaSZut9B4rEl3-ow
     artist: CAD
-    title: Iridescent
+    title: IV
     image: /images/a3162710302_1x1_700.avif
     roles:
       - " Produced"
