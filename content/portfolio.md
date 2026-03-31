@@ -6,17 +6,18 @@ releases:
     roles:
       - " Produced"
       - " Mixed"
-      - " Mastered"
       - " Engineered"
-    credit: ""
+    credit: Mastered By Andy Hawkins at The Nave
     image: /images/a3413595461_16.jpg
   - artist: The Cutter
-    title: Defector
-    spotify: https://open.spotify.com/track/5s8JJMKKAd3jVNRGBW0mt3?si=183557655d664fe1
+    title: The Cutter EP
+    spotify: https://open.spotify.com/album/2xtOZktaP1iGgqhcHu5JUx?si=NJKwxdNKRGe3wz2_dU7DXg
     image: /images/the-cutter-ep-artwork.jpg.webp
     roles:
       - " Produced"
+      - " Engineered"
       - " Mixed"
+      - " Mastered"
     credit: Recorded In Studio 2 at The Nave
   - artist: Adult DVD
     title: Doomsday Prepper
@@ -36,22 +37,22 @@ releases:
       - " Produced"
       - " Engineered"
       - " Mixed"
-  - spotify: https://open.spotify.com/track/0u96QcP8NkobsRn44NtLWm?si=712bdb63178149c2
+  - spotify: https://open.spotify.com/album/5B9dCRltrWEaHeFxmlD3t5?si=WysejYvSQ3OBWqlhn9Bu5w
     artist: Bill Laurance
-    title: Do What You Want
+    title: Rhodes Mk8 Sessions EP
     roles:
       - " Engineered"
     credit: Mixed by Nic Hard, Mastered by Dave McNair
     image: /images/43vuwi-rhodesmk8s-preview-m3.jpg
   - spotify: https://open.spotify.com/track/5PvsWX6stS3nnnKYFOr7Yu?si=43ea2a817c424191
     artist: Sky Valley Mistress
-    title: No Sleep
+    title: Luna Mausoleum LP
     roles:
       - " Engineered"
     image: /images/a2873342111_16.jpg
   - artist: GUTS.
-    title: The Longest Day Of Your Life
-    spotify: https://open.spotify.com/track/3hGJnhzKMoUiAcof8evgpA?si=1dc9cfe35a724d8d
+    title: Sittin' Pretty EP
+    spotify: https://open.spotify.com/album/4EoSrE1p9o3pkmAwiZ4N1v?si=QP3zK-cxSo-k_PgUVgHOww
     roles:
       - " Produced"
       - " Engineered"
@@ -68,9 +69,9 @@ releases:
     roles:
       - " Produced"
   - artist: Tom Sharp Jazz Orchestra
-    title: A Nightingale Sang In Berkeley Square
+    title: Daybreak Express LP
     image: /images/hq720.jpg
-    spotify: https://open.spotify.com/album/6A9mrw3Ug9GMhNMz6X9Qrn?si=7aJaumg0QyidmWL3BZsbVg
+    spotify: https://open.spotify.com/album/4PHqIvrizYiJBkQwHc4QCf?si=aJEA4EYPRQO9Z8-pQYsVlg
     roles:
       - " Engineered"
     credit: Recorded live in Nave Studio 1
