@@ -8,24 +8,16 @@ releases:
       - " Mixed"
       - " Mastered"
       - " Engineered"
-    credit: This is a track from my band Adult DVD.
+    credit: ""
     image: /images/a3413595461_16.jpg
-  - spotify: https://open.spotify.com/track/6TCwlWopMPv7Ire48H49UZ?si=78795daadca94905
-    artist: The Cutter
-    title: Stereotype
+  - artist: The Cutter
+    title: Defector
+    spotify: https://open.spotify.com/track/5s8JJMKKAd3jVNRGBW0mt3?si=183557655d664fe1
+    image: /images/the-cutter-ep-artwork.jpg.webp
     roles:
       - " Produced"
-      - " Engineered"
       - " Mixed"
-    credit: Recorded in Studio 1 at The Nave
-    image: /images/ab67616d0000b273947d4e06f2bf618d43cacd0e.jpeg
-  - spotify: https://open.spotify.com/track/6oy6txyOaSuQeWn36UfKfe?si=9b32f9ab6831484e
-    artist: Bill Laurance
-    title: Set Piece
-    roles:
-      - " Engineered"
-    credit: Mixed by Nic Hard, Mastered by Dave McNair
-    image: /images/43vuwi-rhodesmk8s-preview-m3.jpg
+    credit: Recorded In Studio 2 at The Nave
   - artist: Adult DVD
     title: Doomsday Prepper
     spotify: https://open.spotify.com/track/3TlEVaCa0rl1px2Z53c4dF?si=dfbf2fc39d934cad
@@ -44,23 +36,31 @@ releases:
       - " Produced"
       - " Engineered"
       - " Mixed"
-  - artist: The Cutter
-    title: Defector
-    spotify: https://open.spotify.com/track/5s8JJMKKAd3jVNRGBW0mt3?si=183557655d664fe1
-    image: /images/the-cutter-ep-artwork.jpg.webp
+  - spotify: https://open.spotify.com/track/0u96QcP8NkobsRn44NtLWm?si=712bdb63178149c2
+    artist: Bill Laurance
+    title: Do What You Want
     roles:
-      - " Produced"
-      - " Mixed"
-    credit: Recorded In Studio 2 at The Nave
+      - " Engineered"
+    credit: Mixed by Nic Hard, Mastered by Dave McNair
+    image: /images/43vuwi-rhodesmk8s-preview-m3.jpg
   - spotify: https://open.spotify.com/track/5PvsWX6stS3nnnKYFOr7Yu?si=43ea2a817c424191
     artist: Sky Valley Mistress
     title: No Sleep
     roles:
       - " Engineered"
     image: /images/a2873342111_16.jpg
+  - spotify: https://open.spotify.com/track/6TCwlWopMPv7Ire48H49UZ?si=78795daadca94905
+    artist: The Cutter
+    title: Stereotype
+    roles:
+      - " Produced"
+      - " Engineered"
+      - " Mixed"
+    credit: Recorded in Studio 1 at The Nave
+    image: /images/ab67616d0000b273947d4e06f2bf618d43cacd0e.jpeg
   - artist: GUTS.
-    title: Sittin' Pretty
-    spotify: https://open.spotify.com/track/1lHreGloUKMCfNym8quf4K?si=3913a2a7a8ef4355
+    title: The Longest Day Of Your Life
+    spotify: https://open.spotify.com/track/3hGJnhzKMoUiAcof8evgpA?si=1dc9cfe35a724d8d
     roles:
       - " Produced"
       - " Engineered"
@@ -68,10 +68,10 @@ releases:
     credit: Mastered by Pete Fletcher
     info: Recorded live with minimal overdubs in studio 1 at The Nave
     image: /images/a2643101364_10.jpg
-  - artist: Coal Mob
-    title: Cutting Corners
-    spotify: https://open.spotify.com/track/6cBsgiOmd9mGiiPe7RYhC0?si=9ce45e7a05784bf4
-    image: /images/ab67706c0000da84544911e04658118267014f38.jpeg
+  - artist: CAD
+    title: Forgiveness
+    spotify: https://open.spotify.com/track/3vxyvzq2vw8sICkMDHO0sJ?si=6263ec9a16d44416
+    image: /images/a3162710302_1x1_700.avif
     roles:
       - " Produced"
       - " Mixed"
@@ -86,6 +86,13 @@ releases:
       The Nave.
     roles:
       - " Produced"
+  - artist: Tom Sharp Jazz Orchestra
+    title: A Nightingale Sang In Berkeley Square
+    image: /images/hq720.jpg
+    spotify: https://open.spotify.com/album/6A9mrw3Ug9GMhNMz6X9Qrn?si=7aJaumg0QyidmWL3BZsbVg
+    roles:
+      - " Engineered"
+    credit: Recorded live in Nave Studio 1
   - artist: Amen Ensemble
     title: Hiraeth
     spotify: https://open.spotify.com/track/3xMku29wSEEsSdlSvzLOsc?si=c019bd174d1b4058
@@ -94,11 +101,4 @@ releases:
       - " Engineered"
     credit: Recorded live in Studio 1 at The Nave
     info: ""
-  - artist: Tom Sharp Jazz Orchestra
-    title: Daybreak
-    image: /images/hq720.jpeg
-    spotify: https://open.spotify.com/album/6A9mrw3Ug9GMhNMz6X9Qrn?si=7aJaumg0QyidmWL3BZsbVg
-    roles:
-      - " Engineered"
-    credit: Recorded live in Nave Studio 1
 ---
