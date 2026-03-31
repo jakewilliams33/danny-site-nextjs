@@ -4,5 +4,5 @@ videourls:
   - url: https://www.youtube.com/watch?v=iIF-d6zt1uw
   - url: https://www.youtube.com/watch?v=vbF_d1-ekFs
   - url: https://www.youtube.com/watch?v=BMk1oOpDiAI
-  - url: https://www.youtube.com/watch?v=DqCwcuBop80&list=RDDqCwcuBop80&start_radio=1
+  - url: https://youtu.be/DqCwcuBop80?si=cJwVH3Hee3JU5DIj
 ---
