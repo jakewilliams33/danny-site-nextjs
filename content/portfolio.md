@@ -6,9 +6,8 @@ releases:
     roles:
       - " Produced"
       - " Mixed"
-      - " Mastered"
       - " Engineered"
-    credit: ""
+    credit: Mastered By Andy Hawkins at The Nave
     image: /images/a3413595461_16.jpg
   - artist: The Cutter
     title: The Cutter EP
