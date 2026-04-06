@@ -71,7 +71,7 @@ releases:
   - artist: Tom Sharp Jazz Orchestra
     title: Daybreak Express LP
     image: /images/hq720.jpg
-    spotify: https://open.spotify.com/album/4PHqIvrizYiJBkQwHc4QCf?si=aJEA4EYPRQO9Z8-pQYsVlg
+    spotify: https://open.spotify.com/album/4PHqIvrizYiJBkQwHc4QCf?si=eiw7XewKStuVMZkJ4fKA6w
     roles:
       - " Engineered"
     credit: Recorded live in Nave Studio 1
