@@ -9,6 +9,20 @@ releases:
       - " Engineered"
     credit: Mastered By Andy Hawkins at The Nave
     image: /images/a3413595461_16.jpg
+  - artist: Yard Act
+    title: Redeemer
+    roles:
+      - " Engineered"
+    image: /images/ab67616d00001e02f4acb3a5146701a1d486b5a0.jpeg
+    spotify: https://open.spotify.com/track/6rDVb2EImUpLRrOJkev2XE?si=275680e623aa4ded
+    credit: "Produced by Justin Meldal-Johnsen. "
+  - artist: Bodega
+    title: Pick Up The Check
+    roles:
+      - " Engineered"
+    credit: Produced by Matt Peel at Nave Studios
+    spotify: https://open.spotify.com/track/3sGFYqVj5xh1XlveFEF5np?si=250c875a9fdf4043
+    image: /images/a4022004194_16.jpg
   - artist: The Cutter
     title: The Cutter EP
     spotify: https://open.spotify.com/album/2xtOZktaP1iGgqhcHu5JUx?si=NJKwxdNKRGe3wz2_dU7DXg
@@ -44,12 +58,6 @@ releases:
       - " Engineered"
     credit: Mixed by Nic Hard, Mastered by Dave McNair
     image: /images/43vuwi-rhodesmk8s-preview-m3.jpg
-  - spotify: https://open.spotify.com/track/5PvsWX6stS3nnnKYFOr7Yu?si=43ea2a817c424191
-    artist: Sky Valley Mistress
-    title: Luna Mausoleum LP
-    roles:
-      - " Engineered"
-    image: /images/a2873342111_16.jpg
   - artist: GUTS.
     title: Sittin' Pretty EP
     spotify: https://open.spotify.com/album/4EoSrE1p9o3pkmAwiZ4N1v?si=QP3zK-cxSo-k_PgUVgHOww
@@ -60,14 +68,6 @@ releases:
     credit: Mastered by Pete Fletcher
     info: Recorded live with minimal overdubs in studio 1 at The Nave
     image: /images/a2643101364_10.jpg
-  - artist: Nightbus
-    title: Exposed to Some Light - Adult DVD Remix
-    spotify: https://open.spotify.com/track/7iCBRX4YmSmoOvmXfw4pqa?si=89e71b021fec4b30
-    image: /images/66b57633d900c.webp
-    credit: Remixed by me for Nightbus. Original song produced by Alex Greaves at
-      The Nave.
-    roles:
-      - " Produced"
   - artist: Tom Sharp Jazz Orchestra
     title: Daybreak Express LP
     image: /images/hq720.jpg
